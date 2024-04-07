@@ -13,7 +13,7 @@ This has been incredibly interesting to observe, as it seems like just yesterday
 However, when comparing the two objects from a pure mathematical perspective vs a pure statistical perspective, they can be quite different.
 
 A few years ago when I first started looking into the use of matrix-valued or tensor-valued time series, I actually spoke to a friend who is doing his PhD in applied mathematics.
-I asked him for some help or introductory material, and he recommended I look into the field of Reimannian Geometry.
+I asked him for some help or introductory material, and he recommended I look into the field of Riemannian Geometry.
 Me, not knowing any better, took his advice and tried to understand the abstract notion of tensor spaces, tensor products, and Einstein notation.
 Imagine my surprise when none of this helped in my own research, looking to apply the concept of tensors to econometrics and statistics.
 
