@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+image: "assets/bio-photo-modified.png"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/ivanuricardo/
+    - icon: github
+      href: https://github.com/ivanuricardo
+---
+
+Hi! My name is Ivan and I am currently a PhD student at Maastricht University.
+
+My research interests lie at the intersection of Time Series econometrics and Big Data econometrics.
+
+Contact: iu.ricardo@maastrichtuniversity.nl
+
+

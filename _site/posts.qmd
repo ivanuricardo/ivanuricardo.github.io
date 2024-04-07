@@ -1,0 +1,14 @@
+---
+title: "Posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description, categories]
+page-layout: article
+title-block-banner: true
+description: Welcome to my blog. Posts here should not be mistaken with journal grade publications. What I write here is mostly what I learn myself and can therefore contain mistakes. Some blog posts are also just there so that I can structure my thoughts a bit. I publish these posts as a way to motivate myself to keep learning and as a way for others to learn alongside me. If you find any mistakes or have feedback, please leave a comment or get in contact with me. <br><br><span style="color:#98ceff;">I am still working on this part of the website. Please come back later to see what I am thinking about.</span>
+---

@@ -1,0 +1,37 @@
+---
+title: "About"
+title-block-banner: assets/starry.jpg
+---
+<style>
+
+#title-block-header {
+  margin-block-end: -25rem;
+  position: relative;
+  margin-top: 1px;
+  height: 775px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -30px;
+  height: 85%;
+}
+
+</style>
+My name is Ivan and I am from Santa Barbara, California.
+I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics.
+I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands.
+I chose the latter and did not regret a single thing.
+I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University.
+The Netherlands has become my home away from home, and I have grown to love living here.
+
+During my time in the Netherlands, I found a passion for statistics and computer science.
+I learned as much as I could about programming and best practices, as well as how to apply it to my work.
+This includes:
+
+- Privacy and data rights
+- Open/reproducible science and open source programs
+- Best coding practices for social sciences
+
+In my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here.
