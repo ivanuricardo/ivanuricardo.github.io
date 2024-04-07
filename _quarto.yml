@@ -17,9 +17,9 @@ website:
         href: https://github.com/ivanuricardo
         menu:
           - text: Source Code
-            url: https://github.com/ivanuricardo/ivanuricardo.github.io
+            href: https://github.com/ivanuricardo/ivanuricardo.github.io
           - text: Report a Bug
-            url: https://github.com/ivanuricardo/ivanuricardo.github.io/issues
+            href: https://github.com/ivanuricardo/ivanuricardo.github.io/issues
       - icon: linkedin
         href: https://www.linkedin.com/in/ivanuricardo/
   cookie-consent:
