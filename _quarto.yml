@@ -22,9 +22,6 @@ website:
             url: https://github.com/ivanuricardo/ivanuricardo.github.io/issues
       - icon: linkedin
         href: https://www.linkedin.com/in/ivanuricardo/
-  cookie-consent:
-    type: express
-    style: simple
 
   page-footer: "Made with ❤️, Copywrite 2024, Ivan U. Ricardo"
 format:
