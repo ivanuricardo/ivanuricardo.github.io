@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Hi! My name is Ivan and I am currently a PhD student at Maastricht University.\nMy research interests lie at the intersection of Time Series econometrics and Big Data econometrics.\nContact: iu.ricardo@maastrichtuniversity.nl"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "My name is Ivan and I am from Santa Barbara, California. I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics. I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands. I chose the latter and do not regret a single thing. I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University. The Netherlands has become my home away from home, and I have grown to love living here.\nDuring my time in the Netherlands, I found a passion for statistics and computer science. I learned as much as I could about programming and best practices, as well as how to apply it to my work. This includes:\n\nPrivacy and data rights\nOpen/reproducible science and open source programs\nBest coding practices for social sciences\n\nIn my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Matrix-Valued Time Series\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/mvts/index.html",
@@ -33,5 +19,19 @@
     "title": "Matrix-Valued Time Series",
     "section": "",
     "text": "Why bother? Well, if your data is structured in a way that accomodates a multi-dimensional array, then it might be handy to treat each dimension differently. This could lead to new interpretations of the data in terms of the specific dimensions, as well as some dimensionality reduction. Some examples include:\n- Countries and Economic Indicators observed over time\n- Importing and Exporting countries observed over time\n- Financial assets categorized by group observed over time\n- and more"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hi! My name is Ivan and I am currently a PhD student at Maastricht University.\nMy research interests lie at the intersection of Time Series econometrics and Big Data econometrics.\nContact: iu.ricardo@maastrichtuniversity.nl"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Matrix-Valued Time Series\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   }
 ]
