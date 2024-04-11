@@ -2,7 +2,6 @@
 title: "Matrix-Valued Time Series"
 author: "Ivan U. Ricardo"
 date: "2024-05-07"
-categories: [news]
 bibliography: references.bib
 ---
 
