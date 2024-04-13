@@ -1,14 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/about.html",
-      "/posts/mvts/index.html",
-      "/404.html",
-      "/posts.html"
-    ]
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/mvts/index.html"
