@@ -3,6 +3,7 @@ title: "Matrix-Valued Time Series"
 author: "Ivan U. Ricardo"
 date: "2024-05-07"
 bibliography: references.bib
+image: "cuboid.jpg"
 ---
 
 # Introduction
