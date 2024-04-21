@@ -1,5 +1,5 @@
 ---
-title: "Matrix-Valued Time Series"
+title: "Tensor Calculus"
 author: "Ivan U. Ricardo"
 date: "2024-05-07"
 bibliography: references.bib
@@ -8,54 +8,9 @@ image: "cuboid.jpg"
 
 # Introduction
 
-The field of matrix and tensor valued time series seems to have grown considerably over the past few years.
-This has been incredibly interesting to observe, as it seems like just yesterday that tensors or tensor-like objects were this abstract tool mostly being utilized in physics or abstract mathematics.
-However, when comparing the two objects from a pure mathematical perspective vs a pure statistical perspective, they can be quite different.
-
-A few years ago when I first started looking into the use of matrix-valued or tensor-valued time series, I actually spoke to a friend who is doing his PhD in applied mathematics.
-I asked him for some help or introductory material, and he recommended I look into the field of Riemannian Geometry.
-Me, not knowing any better, took his advice and tried to understand the abstract notion of tensor spaces, tensor products, and Einstein notation.
-Imagine my surprise when none of this helped in my own research, looking to apply the concept of tensors to econometrics and statistics.
-
-Now I am not such a wee lad; I understand the difference between Einstein notation and tensor notation.
-In this blog post, I will look to try and make the distinction clear, summarizing some of the most important works in the matrix-valued time series literature over the past few years.
-
-## Why use matrix-valued time series?
-
-Why bother?
-Well, if your data is structured in a way that accomodates a multi-dimensional array, then it might be handy to treat each dimension differently.
-This could lead to new interpretations of the data in terms of the specific dimensions, as well as some dimensionality reduction.
-Some examples include:
-
-    - Countries and Economic Indicators observed over time
-    - Importing and Exporting countries observed over time
-    - Financial assets categorized by group observed over time
-    - and more
-
-# Matrix-Valued Time Series
-
-Why don't we start with some basic notation.
-Suppose we have a matrix-valued time series labelled $\mathbf{Y}_t$.
-A basic Matrix Autoregressive Model (MAR) is given by
-
-$$
-\mathbf{Y}_t = \mathbf{A} \mathbf{Y}_{t-1} \mathbf{B}' + \mathbf{E}_t
-$$
-
-This is taken from @hoff2015multilinear and @chen2021autoregressive and has close relation to the Singular Value Decomposition.
-This also has a close relation to the standard Vector Autoregressive model, where we can vectorize all portion of the MAR to obtain
-
-$$
-\text{vec} (\mathbf{Y}_t) = (\mathbf{B} \otimes \mathbf{A}) \text{vec} (\mathbf{Y}_t) + \text{vec} (\mathbf{E}_t)
-$$
-
-These models are quite nice because they can explicitly model the relation between the row dimension and the column dimension of the matrix-valued time series.
-For instance, if we have different U.S. states, and each state has a measure of inflation and unemployment, we can see whether there is a relation between the different states, or between inflation and unemployment **separately**.
-
-In practice, these models are quite easy to implement.
-The problem in many cases is that the individual portions (in this case $\mathbf{A}$ and $\mathbf{B}$) are unidentified, meaning we can rotate the space, or scale the spaces and still obtain the same resulting VAR coefficient.
-So in many cases, we will need additional identification restrictions, most likely involving orthogonalization constraints or scaling constraints.
-
-
-
+As some people may know, I have been working on a project involving matrix- and tensor-valued time seris.
+In doing so, I often have to take derivatives of matrices and tensors with respect to other matrices and tensors.
+In this blog post, I will go over some basic rules that I have stumbled upon in my research, mostly because I have not seen any resources for this just yet.
+Additionally, this will make my life easier when I need to refer back to this in the future.
+If any one is interested in the basics of matrix calculus, I would refer to the [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf), or @hackbusch2014tensor.
 
