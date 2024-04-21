@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Ivan and I am from Santa Barbara, California. I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics. I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands. I chose the latter and do not regret a single thing. I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University. The Netherlands has become my home away from home, and I have grown to love living here.\nDuring my time in the Netherlands, I found a passion for statistics and computer science. I learned as much as I could about programming and best practices, as well as how to apply it to my work. This includes:\n\nPrivacy and data rights\nOpen/reproducible science and open source programs\nBest coding practices for social sciences\n\nIn my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here."
-  },
-  {
-    "objectID": "posts/mvts/index.html",
-    "href": "posts/mvts/index.html",
-    "title": "Matrix-Valued Time Series",
-    "section": "",
-    "text": "The field of matrix and tensor valued time series seems to have grown considerably over the past few years. This has been incredibly interesting to observe, as it seems like just yesterday that tensors or tensor-like objects were this abstract tool mostly being utilized in physics or abstract mathematics. However, when comparing the two objects from a pure mathematical perspective vs a pure statistical perspective, they can be quite different.\nA few years ago when I first started looking into the use of matrix-valued or tensor-valued time series, I actually spoke to a friend who is doing his PhD in applied mathematics. I asked him for some help or introductory material, and he recommended I look into the field of Riemannian Geometry. Me, not knowing any better, took his advice and tried to understand the abstract notion of tensor spaces, tensor products, and Einstein notation. Imagine my surprise when none of this helped in my own research, looking to apply the concept of tensors to econometrics and statistics.\nNow I am not such a wee lad; I understand the difference between Einstein notation and tensor notation. In this blog post, I will look to try and make the distinction clear, summarizing some of the most important works in the matrix-valued time series literature over the past few years.\n\n\nWhy bother? Well, if your data is structured in a way that accomodates a multi-dimensional array, then it might be handy to treat each dimension differently. This could lead to new interpretations of the data in terms of the specific dimensions, as well as some dimensionality reduction. Some examples include:\n- Countries and Economic Indicators observed over time\n- Importing and Exporting countries observed over time\n- Financial assets categorized by group observed over time\n- and more"
-  },
-  {
-    "objectID": "posts/mvts/index.html#why-use-matrix-valued-time-series",
-    "href": "posts/mvts/index.html#why-use-matrix-valued-time-series",
-    "title": "Matrix-Valued Time Series",
-    "section": "",
-    "text": "Why bother? Well, if your data is structured in a way that accomodates a multi-dimensional array, then it might be handy to treat each dimension differently. This could lead to new interpretations of the data in terms of the specific dimensions, as well as some dimensionality reduction. Some examples include:\n- Countries and Economic Indicators observed over time\n- Importing and Exporting countries observed over time\n- Financial assets categorized by group observed over time\n- and more"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
@@ -28,10 +7,24 @@
     "text": "Hi! My name is Ivan and I am currently a PhD student at Maastricht University.\nMy research interests lie at the intersection of Time Series econometrics and Big Data econometrics.\nContact: iu.ricardo@maastrichtuniversity.nl"
   },
   {
+    "objectID": "posts/mvts/index.html",
+    "href": "posts/mvts/index.html",
+    "title": "Tensor Calculus",
+    "section": "",
+    "text": "Introduction\nAs some people may know, I have been working on a project involving matrix- and tensor-valued time seris. In doing so, I often have to take derivatives of matrices and tensors with respect to other matrices and tensors. In this blog post, I will go over some basic rules that I have stumbled upon in my research, mostly because I have not seen any resources for this just yet. Additionally, this will make my life easier when I need to refer back to this in the future. If any one is interested in the basics of matrix calculus, I would refer to the Matrix Cookbook, or (hackbusch2014tensor?)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ivan and I am from Santa Barbara, California. I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics. I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands. I chose the latter and do not regret a single thing. I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University. The Netherlands has become my home away from home, and I have grown to love living here.\nDuring my time in the Netherlands, I found a passion for statistics and computer science. I learned as much as I could about programming and best practices, as well as how to apply it to my work. This includes:\n\nPrivacy and data rights\nOpen/reproducible science and open source programs\nBest coding practices for social sciences\n\nIn my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here."
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Matrix-Valued Time Series\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Tensor Calculus\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

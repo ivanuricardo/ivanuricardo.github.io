@@ -9,7 +9,7 @@
 <meta name="author" content="Ivan U. Ricardo">
 <meta name="dcterms.date" content="2024-05-07">
 
-<title>Ivan U. Ricardo - Matrix-Valued Time Series</title>
+<title>Ivan U. Ricardo - Tensor Calculus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,35 +71,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -181,7 +132,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Matrix-Valued Time Series</h1>
+      <h1 class="title">Tensor Calculus</h1>
                       </div>
   </div>
     
@@ -214,11 +165,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#why-use-matrix-valued-time-series" id="toc-why-use-matrix-valued-time-series" class="nav-link" data-scroll-target="#why-use-matrix-valued-time-series">Why use matrix-valued time series?</a></li>
-  </ul></li>
-  <li><a href="#matrix-valued-time-series" id="toc-matrix-valued-time-series" class="nav-link" data-scroll-target="#matrix-valued-time-series">Matrix-Valued Time Series</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   </ul>
 </nav>
     </div>
@@ -231,43 +178,12 @@ window.Quarto = {
 
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>The field of matrix and tensor valued time series seems to have grown considerably over the past few years. This has been incredibly interesting to observe, as it seems like just yesterday that tensors or tensor-like objects were this abstract tool mostly being utilized in physics or abstract mathematics. However, when comparing the two objects from a pure mathematical perspective vs a pure statistical perspective, they can be quite different.</p>
-<p>A few years ago when I first started looking into the use of matrix-valued or tensor-valued time series, I actually spoke to a friend who is doing his PhD in applied mathematics. I asked him for some help or introductory material, and he recommended I look into the field of Riemannian Geometry. Me, not knowing any better, took his advice and tried to understand the abstract notion of tensor spaces, tensor products, and Einstein notation. Imagine my surprise when none of this helped in my own research, looking to apply the concept of tensors to econometrics and statistics.</p>
-<p>Now I am not such a wee lad; I understand the difference between Einstein notation and tensor notation. In this blog post, I will look to try and make the distinction clear, summarizing some of the most important works in the matrix-valued time series literature over the past few years.</p>
-<section id="why-use-matrix-valued-time-series" class="level2">
-<h2 class="anchored" data-anchor-id="why-use-matrix-valued-time-series">Why use matrix-valued time series?</h2>
-<p>Why bother? Well, if your data is structured in a way that accomodates a multi-dimensional array, then it might be handy to treat each dimension differently. This could lead to new interpretations of the data in terms of the specific dimensions, as well as some dimensionality reduction. Some examples include:</p>
-<pre><code>- Countries and Economic Indicators observed over time
-- Importing and Exporting countries observed over time
-- Financial assets categorized by group observed over time
-- and more</code></pre>
-</section>
-</section>
-<section id="matrix-valued-time-series" class="level1">
-<h1>Matrix-Valued Time Series</h1>
-<p>Why don’t we start with some basic notation. Suppose we have a matrix-valued time series labelled <span class="math inline">\(\mathbf{Y}_t\)</span>. A basic Matrix Autoregressive Model (MAR) is given by</p>
-<p><span class="math display">\[
-\mathbf{Y}_t = \mathbf{A} \mathbf{Y}_{t-1} \mathbf{B}' + \mathbf{E}_t
-\]</span></p>
-<p>This is taken from <span class="citation" data-cites="hoff2015multilinear">Hoff (<a href="#ref-hoff2015multilinear" role="doc-biblioref">2015</a>)</span> and <span class="citation" data-cites="chen2021autoregressive">Chen, Xiao, and Yang (<a href="#ref-chen2021autoregressive" role="doc-biblioref">2021</a>)</span> and has close relation to the Singular Value Decomposition. This also has a close relation to the standard Vector Autoregressive model, where we can vectorize all portion of the MAR to obtain</p>
-<p><span class="math display">\[
-\text{vec} (\mathbf{Y}_t) = (\mathbf{B} \otimes \mathbf{A}) \text{vec} (\mathbf{Y}_t) + \text{vec} (\mathbf{E}_t)
-\]</span></p>
-<p>These models are quite nice because they can explicitly model the relation between the row dimension and the column dimension of the matrix-valued time series. For instance, if we have different U.S. states, and each state has a measure of inflation and unemployment, we can see whether there is a relation between the different states, or between inflation and unemployment <strong>separately</strong>.</p>
-<p>In practice, these models are quite easy to implement. The problem in many cases is that the individual portions (in this case <span class="math inline">\(\mathbf{A}\)</span> and <span class="math inline">\(\mathbf{B}\)</span>) are unidentified, meaning we can rotate the space, or scale the spaces and still obtain the same resulting VAR coefficient. So in many cases, we will need additional identification restrictions, most likely involving orthogonalization constraints or scaling constraints.</p>
-
+<p>As some people may know, I have been working on a project involving matrix- and tensor-valued time seris. In doing so, I often have to take derivatives of matrices and tensors with respect to other matrices and tensors. In this blog post, I will go over some basic rules that I have stumbled upon in my research, mostly because I have not seen any resources for this just yet. Additionally, this will make my life easier when I need to refer back to this in the future. If any one is interested in the basics of matrix calculus, I would refer to the <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>, or <span class="citation" data-cites="hackbusch2014tensor">(<a href="#ref-hackbusch2014tensor" role="doc-biblioref"><strong>hackbusch2014tensor?</strong></a>)</span>.</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-chen2021autoregressive" class="csl-entry" role="listitem">
-Chen, Rong, Han Xiao, and Dan Yang. 2021. <span>“Autoregressive Models for Matrix-Valued Time Series.”</span> <em>Journal of Econometrics</em> 222 (1): 539–60.
-</div>
-<div id="ref-hoff2015multilinear" class="csl-entry" role="listitem">
-Hoff, Peter D. 2015. <span>“Multilinear Tensor Regression for Longitudinal Relational Data.”</span> <em>The Annals of Applied Statistics</em> 9 (3): 1169.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
