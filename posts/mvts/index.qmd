@@ -5,10 +5,10 @@ date: "2024-05-07"
 bibliography: references.bib
 image: "cuboid.jpg"
 format: html
+engine: julia
 execute: 
   output: true
   eval: true
-jupyter: julia-ros-1.9
 ---
 ```{julia}
 #| include: false 
