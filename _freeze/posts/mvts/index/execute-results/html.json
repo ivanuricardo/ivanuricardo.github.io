@@ -1,0 +1,12 @@
+{
+  "hash": "72b59a1455b464ea6874718c8603f675",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: Tensor Calculus\nauthor: Ivan U. Ricardo\ndate: '2024-05-07'\nbibliography: references.bib\nimage: cuboid.jpg\nformat: html\nexecute:\n  freeze: auto\n  eval: true\n  echo: true\n  output: true\n---\n\n\n# Introduction\n\nAs some people may know, I have been working on a project involving matrix- and tensor-valued time seris.\nIn doing so, I often have to take derivatives of matrices and tensors with respect to other matrices and tensors.\nIn this blog post, I will go over some basic rules that I have stumbled upon in my research, mostly because I have not seen any resources for this just yet.\nAdditionally, this will make my life easier when I need to refer back to this in the future.\nIf any one is interested in the basics of matrix calculus, I would refer to the [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf), or @hackbusch2014numerical.\n\n## Basic Definitions\n\n```julia\nusing LinearAlgebra, Statistics, Random\nusing ReverseDiff  # I use this package for derivatives.\nusing TensorToolbox  # I use this package for tensor operations.\nRandom.seed!(05212024)\n```\n\nFirst, I want to go over some basic rules.\nI will also include some Julia code so we can visualize the output and confirm our results.\nRecall, the derivative of a vector with respect to a vector is a matrix.\nThis comes from the definition of a derivative, where we take the derivative of each element of the vector with respect to each element of the other vector.\nIn other words,\n```julia\nb = randn(4)\n@display A = randn(4,4)\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
