@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Ivan U. Ricardo"
+  title: "Ivan Ricardo"
   navbar:
     background: "#2d3561"
     search: true
@@ -17,6 +17,7 @@ website:
         href: posts.qmd
       - text: Software
         href: software.qmd
+      - publications.qmd
     tools:
       - icon: github
         href: https://github.com/ivanuricardo

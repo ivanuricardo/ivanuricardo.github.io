@@ -1,0 +1,12 @@
+{
+  "hash": "03c9cbdad7ef16195ab2692bb1717860",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Reduced-Rank Matrix Autoregressive Model: A Medium N Approach\"\nauthor: \"Ivan U. Ricardo\"\ndate: \"2024-07-10\"\nimage: \"rrmarfig.png\"\nformat: html\nexecute:\n  freeze: auto\n  eval: true\n  echo: true\n  output: true\njupyter: julia-1.10\n---\n\n\n\n\n\n# Abstract\nReduced-rank regressions are powerful tools used to identify co-movements within economic time series.\nHowever, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure.\nWe propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series.\nMoreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.\nTwo empirical applications involving U.S.\\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.\n\n[Link to paper](https://enweg.github.io/)\n\n",
+    "supporting": [
+      "index_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

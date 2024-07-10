@@ -1,0 +1,33 @@
+---
+title: "Software"
+title-block-banner: assets/farren-misty.png
+title-block-banner-color: "#100c08"
+---
+
+<style>
+
+#title-block-header {
+  margin-block-end: -25rem;
+  position: relative;
+  margin-top: 1px;
+  height: 775px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -30px;
+  height: 85%;
+}
+
+</style>
+
+
+![](assets/glassoimg.png){width=200}
+
+# [GraphicalLasso.jl](https://github.com/ivanuricardo/GraphicalLasso.jl)
+
+This package provides efficient tools for generating sparse covariance matrices, estimating sparse precision matrices using the graphical lasso (glasso) algorithm (Friedman, Hastie, and Tibshirani 2008; Meinshausen and Bühlmann 2006), and selecting optimal regularization parameters.
+
+ 
+

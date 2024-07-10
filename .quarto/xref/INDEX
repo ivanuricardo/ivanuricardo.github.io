@@ -19,5 +19,20 @@
   },
   "posts/mvts/index.qmd": {
     "index.html": "830a6bdf"
+  },
+  "software/mvts/index.qmd": {
+    "index.html": "1a5e9407"
+  },
+  "software.qmd": {
+    "software.html": "ced3adf0"
+  },
+  "publications/rrmar/index.qmd": {
+    "index.html": "65bfeccc"
+  },
+  "publications.qmd": {
+    "publications.html": "7e2f601e"
+  },
+  "software/glasso/index.qmd": {
+    "index.html": "00ebaa22"
   }
 }

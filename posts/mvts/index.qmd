@@ -19,33 +19,4 @@ macro display(ex)
 end
 ```
 
-# Introduction
-
-As some people may know, I have been working on a project involving matrix- and tensor-valued time seris.
-In doing so, I often have to take derivatives of matrices and tensors with respect to other matrices and tensors.
-In this blog post, I will go over some basic rules that I have stumbled upon in my research, mostly because I have not seen any resources for this just yet.
-Additionally, this will make my life easier when I need to refer back to this in the future.
-If any one is interested in the basics of matrix calculus, I would refer to the [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf), or @hackbusch2014numerical.
-
-## Basic Definitions
-
-```julia
-using LinearAlgebra, Statistics, Random
-using ReverseDiff  # I use this package for derivatives.
-using TensorToolbox  # I use this package for tensor operations.
-Random.seed!(05212024)
-```
-
-First, I want to go over some basic rules.
-I will also include some Julia code so we can visualize the output and confirm our results.
-Recall, the derivative of a vector with respect to a vector is a matrix.
-This comes from the definition of a derivative, where we take the derivative of each element of the vector with respect to each element of the other vector.
-In other words,
-```julia
-b = randn(4)
-A = randn(4,4)
-@display ReverseDiff.jacobian(x -> x, b)
-```
-
-
-
+To be continued...

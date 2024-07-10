@@ -1,0 +1,38 @@
+---
+title: "Publications"
+title-block-banner: assets/backpacking.jpg
+title-block-banner-color: "#100c08"
+---
+
+<style>
+
+#title-block-header {
+  margin-block-end: -25rem;
+  position: relative;
+  margin-top: 1px;
+  height: 775px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -30px;
+  height: 85%;
+}
+
+</style>
+
+
+![](assets/rrmarfig.png){width=600}
+
+# [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://enweg.github.io/)
+
+[Code](https://github.com/ivanuricardo/RR-MAR)
+ 
+**Abstract**.
+Reduced-rank regressions are powerful tools used to identify co-movements within economic time series.
+However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure.
+We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series.
+Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.
+Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.
+
