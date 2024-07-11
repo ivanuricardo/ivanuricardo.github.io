@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/mvts/index.html",
+    "href": "posts/mvts/index.html",
+    "title": "Tensor Calculus",
+    "section": "",
+    "text": "To be continued…"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Tensor Calculus\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ivan and I am from Santa Barbara, California. I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics. I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands. I chose the latter and do not regret a single thing. I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University. The Netherlands has become my home away from home, and I have grown to love living here.\nDuring my time in the Netherlands, I found a passion for statistics and computer science. I learned as much as I could about programming and best practices, as well as how to apply it to my work. This includes:\n\nPrivacy and data rights\nOpen/reproducible science and open source programs\nBest coding practices for social sciences\n\nIn my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Reduced-Rank Matrix Autoregressions: A Medium \\(N\\) Approach\nLink to Paper\nCode\nAbstract. Reduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S. states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hi! My name is Ivan and I am currently a PhD student at Maastricht University.\nMy research interests lie at the intersection of Time Series econometrics and Big Data econometrics.\nContact: iu.ricardo@maastrichtuniversity.nl"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "GraphicalLasso.jl\nLink to GitHub\nThis package provides efficient tools for generating sparse covariance matrices, estimating sparse precision matrices using the graphical lasso (glasso) algorithm (Friedman, Hastie, and Tibshirani 2008; Meinshausen and Bühlmann 2006), and selecting optimal regularization parameters."
+  }
+]
