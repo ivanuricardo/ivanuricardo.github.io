@@ -2,12 +2,6 @@
   "listingMap": {
     "posts.qmd": [
       "posts"
-    ],
-    "software.qmd": [
-      "software"
-    ],
-    "publications.qmd": [
-      "publications"
     ]
   }
 }
