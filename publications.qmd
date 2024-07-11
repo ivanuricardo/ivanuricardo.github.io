@@ -25,7 +25,9 @@ title-block-banner-color: "#100c08"
 
 ![](assets/rrmarfig.png){width=600}
 
-# [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://enweg.github.io/)
+# Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach
+
+[Link to Paper](https://enweg.github.io/)
 
 [Code](https://github.com/ivanuricardo/RR-MAR)
  
