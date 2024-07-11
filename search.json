@@ -25,7 +25,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Reduced-Rank Matrix Autoregressions: A Medium \\(N\\) Approach\nCode\nAbstract. Reduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S. states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements."
+    "text": "Reduced-Rank Matrix Autoregressions: A Medium \\(N\\) Approach\nLink to Paper\nCode\nAbstract. Reduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S. states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements."
   },
   {
     "objectID": "index.html",
@@ -39,6 +39,6 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "GraphicalLasso.jl\nThis package provides efficient tools for generating sparse covariance matrices, estimating sparse precision matrices using the graphical lasso (glasso) algorithm (Friedman, Hastie, and Tibshirani 2008; Meinshausen and Bühlmann 2006), and selecting optimal regularization parameters."
+    "text": "GraphicalLasso.jl\nLink to GitHub\nThis package provides efficient tools for generating sparse covariance matrices, estimating sparse precision matrices using the graphical lasso (glasso) algorithm (Friedman, Hastie, and Tibshirani 2008; Meinshausen and Bühlmann 2006), and selecting optimal regularization parameters."
   }
 ]
