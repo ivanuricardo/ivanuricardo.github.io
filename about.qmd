@@ -14,7 +14,7 @@ title-block-banner: assets/starry.jpg
 .quarto-title-banner {
   margin-block-end: 1rem;
   position: relative;
-  margin-top: -30px;
+  margin-top: -20px;
   height: 85%;
 }
 
