@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ivanuricardo.github.io/index.html</loc>
-    <lastmod>2024-04-21T13:28:57.460Z</lastmod>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/posts/mvts/index.html</loc>
+    <lastmod>2024-07-10T23:12:07.287Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/posts/mvts/index.html</loc>
-    <lastmod>2024-04-21T13:28:57.464Z</lastmod>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/posts.html</loc>
+    <lastmod>2024-07-10T23:12:07.287Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/about.html</loc>
-    <lastmod>2024-04-21T13:28:57.452Z</lastmod>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/about.html</loc>
+    <lastmod>2024-07-10T23:12:07.280Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/posts.html</loc>
-    <lastmod>2024-04-21T13:28:57.460Z</lastmod>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/publications.html</loc>
+    <lastmod>2024-07-10T23:12:07.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/index.html</loc>
+    <lastmod>2024-07-10T23:12:07.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ivanuricardo.github.io/iuricardo.github.io/software.html</loc>
+    <lastmod>2024-07-10T23:12:07.287Z</lastmod>
   </url>
 </urlset>
