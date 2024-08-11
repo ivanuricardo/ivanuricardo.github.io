@@ -8,6 +8,8 @@ about:
       href: https://www.linkedin.com/in/ivanuricardo/
     - icon: github
       href: https://github.com/ivanuricardo
+    - icon: journal-text
+      href: https://scholar.google.com/citations?user=J5n5w2QAAAAJ&hl=en
 ---
 
 Hi! My name is Ivan and I am currently a PhD student at Maastricht University.

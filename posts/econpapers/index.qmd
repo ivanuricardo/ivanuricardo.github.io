@@ -1,0 +1,29 @@
+---
+title: "How to read econometric papers"
+author: "Ivan U. Ricardo"
+date: "2024-08-10"
+bibliography: references.bib
+format: html
+execute:
+  freeze: auto
+  eval: true
+  echo: true
+  output: true
+---
+
+I recently came across a [blog post by Frank DiTraglia](https://www.econometrics.blog/post/how-to-read-an-econometrics-paper/) on how to read econometric papers.
+Econometric papers are notoriously difficult to read, and even if you have been reading papers for a while, you may still be struggling to understand the content.
+So I just wanted to share this blog post to spread the word on how to read econometric papers.
+Some of my thoughts:
+
+- **Form a reading group**. Reading papers with others can help you understand the content better. Even discussing a paper with a friend can help you understand the content better.
+- **Start with Empirical Example**. This was mentioned in the blog post, but I think it is worth reiterating. Avoiding the theory might sound counterintuitive if you want to understand the paper, but coming back to the theory after understanding the empirical example can help you greatly understand the mathematics.
+- If you want to understand the math, **start small**. The authors may intend that the audience has a high level of mathematical knowledge, but you can start by understanding the basics and then build on that.
+
+The last part of the blog post on asymptotics is particularly interesting.
+I have recently started trying to dive into the world of asymptotics, as I believe they are crucial for understanding econometric papers.
+However, I have some conflicting ideas around this.
+Asymptotics are indeed logically useless for applied work, and if one is solely interested in understanding the way the world works with their econometric method, then asymptotics are not necessary.
+However, I am still learning and trying to understand the role of asymptotics in modern econometrics.
+This is a topic that I will be exploring in the future.
+

@@ -34,5 +34,8 @@
   },
   "software/glasso/index.qmd": {
     "index.html": "00ebaa22"
+  },
+  "posts/econpapers/index.qmd": {
+    "index.html": "069658a8"
   }
 }
