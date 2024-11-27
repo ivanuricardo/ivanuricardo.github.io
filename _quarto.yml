@@ -26,8 +26,6 @@ website:
             url: https://github.com/ivanuricardo/ivanuricardo.github.io
           - text: Report a Bug
             url: https://github.com/ivanuricardo/ivanuricardo.github.io/issues
-      - icon: linkedin
-        href: https://www.linkedin.com/in/ivanuricardo/
 
   page-footer: "Made with ❤️, Copyright 2024, Ivan U. Ricardo"
 format:

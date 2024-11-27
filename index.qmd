@@ -8,13 +8,15 @@ about:
       href: https://www.linkedin.com/in/ivanuricardo/
     - icon: github
       href: https://github.com/ivanuricardo
-    - icon: journal-text
-      href: https://scholar.google.com/citations?user=J5n5w2QAAAAJ&hl=en
+    - icon: book
+      href: https://scholar.google.com/citations?user=GPieImYAAAAJ&hl=nl&oi=ao
+    - icon: file-earmark-person
+      href: assets/cv_ivan_ricardo.pdf
 ---
 
 Hi! My name is Ivan and I am currently a PhD student at Maastricht University.
 
-My research interests lie at the intersection of Time Series econometrics and Big Data econometrics.
+My research interests lie at the intersection of Time Series econometrics and Big Data econometrics. Below you can find my LinkedIn, Github, Google Scholar, and CV.
 
 Contact: iu.ricardo@maastrichtuniversity.nl
 
