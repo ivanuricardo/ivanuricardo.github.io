@@ -11,7 +11,7 @@ about:
     - icon: book
       href: https://scholar.google.com/citations?user=GPieImYAAAAJ&hl=nl&oi=ao
     - icon: file-earmark-person
-      href: assets/cv_ivan_ricardo.pdf
+      href: assets/cv_ivan.pdf
 ---
 
 Hi! My name is Ivan and I am currently a PhD student at Maastricht University.
