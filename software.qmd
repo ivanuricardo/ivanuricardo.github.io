@@ -6,6 +6,8 @@ title-block-banner-color: "#100c08"
 
 <style>
 
+z-index: 100;
+
 #title-block-header {
   margin-block-end: -25rem;
   position: relative;
