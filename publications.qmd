@@ -30,6 +30,8 @@ title-block-banner-color: "#100c08"
 [Link to Paper](https://arxiv.org/abs/2407.07973)
 
 [Code](https://github.com/ivanuricardo/RR-MAR)
+
+[CFE-CM Statistics Presentation Slides](assets/matrixsccfslides.html)
  
 **Abstract**.
 Reduced-rank regressions are powerful tools used to identify co-movements within economic time series.
