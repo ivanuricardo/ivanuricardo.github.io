@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-image: "assets/ivan-profile.png"
+image: "assets/ivan-profile.jpg"
 about:
   template: jolla
   links:
