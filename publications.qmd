@@ -23,9 +23,22 @@ title-block-banner-color: "#100c08"
 </style>
 
 
-![](assets/rrmarfig.png){width=600}
+# Detecting Cointegrating Relations in Matrix-Valued Time Series (2025)
 
-# Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach
+[Code](https://github.com/ivanuricardo/MECMrankdetermination)
+
+[Link to Paper](https://www.sciencedirect.com/science/article/pii/S0165176525000424)
+
+**Abstract**
+This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series.
+We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks.
+Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
+
+:::{.column-margin}
+![](assets/globalplots.png){height=175}
+:::
+
+# Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach (2024)
 
 [Link to Paper](https://arxiv.org/abs/2407.07973)
 
@@ -40,3 +53,6 @@ We propose reduced-rank regressions with a tensor structure for the coefficient 
 Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.
 Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.
 
+:::{.column-margin}
+![](assets/rrmarfig.png){height=150}
+:::
