@@ -33,6 +33,6 @@ This package provides efficient tools for generating sparse covariance matrices,
 
 # [Rank Determination in Matrix Error Correction Models](https://github.com/ivanuricardo/MECMrankdetermination)
 
-Replication materials for "Detecting Cointegrating Relations in Non-Stationary Matrix-Valued Time Series.
+Replication materials for "Detecting Cointegrating Relations in Non-Stationary Matrix-Valued Time Series".
  
 
