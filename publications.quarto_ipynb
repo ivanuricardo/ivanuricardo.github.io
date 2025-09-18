@@ -1,0 +1,55 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Publications\"\n",
+        "title-block-banner: assets/backpacking.jpg\n",
+        "---\n",
+        "\n",
+        "```{css, echo=FALSE}\n",
+        ".title {\n",
+        "  color: black;\n",
+        "}\n",
+        "```\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "<style>\n",
+        "\n",
+        "#title-block-header {\n",
+        "  margin-block-end: -25rem;\n",
+        "  position: relative;\n",
+        "  margin-top: 1px;\n",
+        "  height: 775px;\n",
+        "}\n",
+        "\n",
+        ".quarto-title-banner {\n",
+        "  margin-block-end: 1rem;\n",
+        "  position: relative;\n",
+        "  margin-top: -30px;\n",
+        "  height: 85%;\n",
+        "}\n",
+        "\n",
+        "</style>\n",
+        "\n",
+        "\n",
+        "# Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach"
+      ],
+      "id": "c0f6d278"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

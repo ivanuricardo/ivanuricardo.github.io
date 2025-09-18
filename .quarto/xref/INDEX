@@ -1,0 +1,41 @@
+{
+  "about.qmd": {
+    "about.html": "1db0cb64"
+  },
+  "index.qmd": {
+    "index.html": "fa613ef6"
+  },
+  "404.qmd": {
+    "404.html": "82c6e2d4"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "59ade5b3"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "9c61ecef"
+  },
+  "posts.qmd": {
+    "posts.html": "8b4e190d"
+  },
+  "posts/mvts/index.qmd": {
+    "index.html": "830a6bdf"
+  },
+  "software/mvts/index.qmd": {
+    "index.html": "1a5e9407"
+  },
+  "software.qmd": {
+    "software.html": "ced3adf0"
+  },
+  "publications/rrmar/index.qmd": {
+    "index.html": "65bfeccc"
+  },
+  "publications.qmd": {
+    "publications.html": "7e2f601e"
+  },
+  "software/glasso/index.qmd": {
+    "index.html": "00ebaa22"
+  },
+  "posts/econpapers/index.qmd": {
+    "index.html": "069658a8"
+  }
+}
