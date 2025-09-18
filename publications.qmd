@@ -30,7 +30,7 @@ title-block-banner-color: "#100c08"
 :::{.column-margin}
 ![](assets/globalplots.png){height=175}
 :::
-*Economics Letters, 2025*
+*with Alain Hecq and Ines Wilms, in Economics Letters (2025)*
 
 
 
@@ -48,6 +48,7 @@ Through Monte Carlo simulations and a macroeconomic application, we demonstrate 
 :::{.column-margin}
 ![](assets/rrmarfig.png){height=150}
 :::
+*with Alain Hecq and Ines Wilms*
 
 [CFE-CM Statistics Presentation Slides](assets/matrixsccfslides.html)
  
