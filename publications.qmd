@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Research"
 title-block-banner: assets/backpacking.jpg
 title-block-banner-color: "#100c08"
 ---
@@ -22,37 +22,40 @@ title-block-banner-color: "#100c08"
 
 </style>
 
+# Publications
 
-# Detecting Cointegrating Relations in Matrix-Valued Time Series (2025)
 
-[Code](https://github.com/ivanuricardo/MECMrankdetermination)
-
-[Link to Paper](https://www.sciencedirect.com/science/article/pii/S0165176525000424)
-
-**Abstract**
-This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series.
-We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks.
-Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
+### [Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424)
 
 :::{.column-margin}
 ![](assets/globalplots.png){height=175}
 :::
+*Economics Letters, 2025*
 
-# Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach (2024)
 
-[Link to Paper](https://arxiv.org/abs/2407.07973)
 
-[Code](https://github.com/ivanuricardo/RR-MAR)
+::: {.callout-tip title="Abstract" collapse=true}
+This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series.
+We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks.
+Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
+:::
+
+
+# Working Papers
+
+### [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973)
+
+:::{.column-margin}
+![](assets/rrmarfig.png){height=150}
+:::
 
 [CFE-CM Statistics Presentation Slides](assets/matrixsccfslides.html)
  
-**Abstract**.
+::: {.callout-tip title="Abstract" collapse=true}
 Reduced-rank regressions are powerful tools used to identify co-movements within economic time series.
 However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure.
 We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series.
 Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.
 Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.
-
-:::{.column-margin}
-![](assets/rrmarfig.png){height=150}
 :::
+

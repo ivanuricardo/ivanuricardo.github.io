@@ -27,13 +27,12 @@ main {
 </style>
 
 
-![](assets/glassoimg.png){width=200}
-
-# GraphicalLasso.jl
-
-[Link to GitHub](https://github.com/ivanuricardo/GraphicalLasso.jl)
+# [GraphicalLasso.jl](https://github.com/ivanuricardo/GraphicalLasso.jl)
 
 This package provides efficient tools for generating sparse covariance matrices, estimating sparse precision matrices using the graphical lasso (glasso) algorithm (Friedman, Hastie, and Tibshirani 2008; Meinshausen and Bühlmann 2006), and selecting optimal regularization parameters.
 
+# [Rank Determination in Matrix Error Correction Models](https://github.com/ivanuricardo/MECMrankdetermination)
+
+Replication materials for "Detecting Cointegrating Relations in Non-Stationary Matrix-Valued Time Series.
  
 
