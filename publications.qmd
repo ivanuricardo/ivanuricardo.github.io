@@ -43,6 +43,23 @@ Through Monte Carlo simulations and a macroeconomic application, we demonstrate 
 
 # Working Papers
 
+### [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://arxiv.org/abs/2509.19911)
+
+:::{.column-margin}
+![](assets/sccf_restriction.png){height=180}
+:::
+*with Alain Hecq and Ines Wilms*
+
+::: {.callout-tip title="Abstract" collapse=true}
+We propose a pseudo-structural framework for analyzing contemporaneous co-movements in reduced-rank matrix autoregressive (RRMAR) models.
+Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, our formulation preserves it, enabling a decomposition of co-movements
+into three interpretable components: row-specific, column-specific, and joint (row–column) interactions across the matrix-valued time series.
+Our estimator admits standard asymptotic inference and we propose a BIC-type criterion for the joint selection of the reduced ranks and the autoregressive lag order.
+We validate the method's finite-sample performance  in terms of estimation accuracy, coverage and rank selection in simulation experiments, including cases of rank misspecification.
+We illustrate the method's practical usefulness in identifying co-movement structures in  two empirical applications: U.S. state-level coincident and leading indicators, and cross-country macroeconomic indicators.
+:::
+
+
 ### [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973)
 
 :::{.column-margin}
