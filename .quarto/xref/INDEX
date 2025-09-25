@@ -1,0 +1,23 @@
+{
+  "about.qmd": {
+    "about.html": "cfe1899c"
+  },
+  "publications.qmd": {
+    "publications.html": "3ad80657"
+  },
+  "posts.qmd": {
+    "posts.html": "004775dc"
+  },
+  "index.qmd": {
+    "index.html": "499d42e5"
+  },
+  "posts/econpapers/index.qmd": {
+    "index.html": "0a2c0206"
+  },
+  "software.qmd": {
+    "software.html": "f83815e5"
+  },
+  "404.qmd": {
+    "404.html": "09d18132"
+  }
+}
