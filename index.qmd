@@ -6,17 +6,22 @@ about:
   links:
     - icon: linkedin
       href: https://www.linkedin.com/in/ivanuricardo/
+      text: LinkedIn
     - icon: github
       href: https://github.com/ivanuricardo
-    - icon: book
+      text: GitHub
+    - icon: mortarboard
       href: https://scholar.google.com/citations?user=GPieImYAAAAJ&hl=nl&oi=ao
-    - icon: file-earmark-person
+      text: Google Scholar
+    - icon: file-earmark-text
       href: /assets/ivanricardocv.pdf
+      text: CV
 ---
 
 Hi! My name is Ivan and I am currently a PhD student at Maastricht University.
 
-My research interests lie at the intersection of Time Series econometrics and Big Data econometrics. Below you can find my LinkedIn, Github, Google Scholar, and CV.
+My research focuses on **time series econometrics**, **macroeconometrics**, and the use of **structured data** in econometric modeling.
+I am particularly interested in matrix-valued data, statistical inference, and applications to climate data and macroeconomics.  
 
 Contact: iu.ricardo@maastrichtuniversity.nl
 
