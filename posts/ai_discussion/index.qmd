@@ -1,0 +1,30 @@
+---
+title: "Obligatory AI Post"
+author: "Ivan U. Ricardo"
+date: "2025-10-09"
+format: html
+execute:
+  freeze: auto
+  eval: true
+  echo: true
+  output: true
+---
+
+Hopefully I am not too late to the party, but I have had some thoughts regarding AI on my mind and I thought using this blog as an outlet would be nice.
+This comes after stumbling upon this [excellent blog post](https://lucianonooijen.com/blog/why-i-stopped-using-ai-code-editors/) by Luciano Nooijen.
+His TLDR is 
+
+*I chose to make using AI a manual action, because I felt the slow loss of competence over time when I relied on it, and I recommend everyone to be cautious with making AI a key part of their workflow.*
+
+He then discusses the importance of practicing the basics, with quotes such as *It was quite clear that because I did not practice the basics often, I was less capable with the harder parts as well*.
+
+Of course, my intention is not to be a cynic; AI is prevalent in everyday life and has helped with a vast majority of repetitive workflows.
+I also admit to using ChatGPT to help with my academic writing (not for my blog posting of course. This is a space for my terrible english), back and forth with ideas, and even some problem generation for courses I make.
+Using ChatGPT as a tool for learning has endless possibilities, to creating problem sets for students for more practice, to helping explain some complex ideas or even some mathematics (when it is not hallucinating).
+I only wish to encourage fruitful discussion when discussing the pros and cons of using AI in everyday life and workflows.
+
+I will finish and say that this blog is only really an outlet for me to write down some of my musings and thoughts.
+I firmly believe in practicing the basics often, to obtain that *fingerspitzengefühl* and really learn the inner workings of the methods and frameworks I use on a day to day basis.
+Because ultimately, I am interested in learning, and there are not shortcuts to learning.
+
+
