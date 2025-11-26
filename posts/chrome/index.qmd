@@ -1,0 +1,13 @@
+---
+title: "On Privacy"
+author: "Ivan U. Ricardo"
+date: "2024-08-10"
+format: html
+execute:
+  freeze: auto
+  eval: true
+  echo: true
+  output: true
+---
+https://contrachrome.com/chapters/
+

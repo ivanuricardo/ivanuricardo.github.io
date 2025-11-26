@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-image: "assets/ivan-profile.jpg"
+image: "assets/PDF-UM-SBE-Ivan-Ricardo-QE-001-C.jpg"
 about:
   template: jolla
   links:
@@ -24,6 +24,5 @@ My research focuses on **time series econometrics**, **macroeconometrics**, and 
 I am particularly interested in matrix-valued data, statistical inference, and applications to climate data and macroeconomics.  
 
 Contact: iu.ricardo@maastrichtuniversity.nl
-
 
 
