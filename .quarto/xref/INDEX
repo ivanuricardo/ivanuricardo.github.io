@@ -1,0 +1,29 @@
+{
+  "about.qmd": {
+    "about.html": "6a062f03"
+  },
+  "publications.qmd": {
+    "publications.html": "f4876a32"
+  },
+  "posts.qmd": {
+    "posts.html": "bbebd71e"
+  },
+  "index.qmd": {
+    "index.html": "027babd3"
+  },
+  "posts/ai_discussion/index.qmd": {
+    "index.html": "d71a82aa"
+  },
+  "posts/chrome/index.qmd": {
+    "index.html": "befb4485"
+  },
+  "posts/econpapers/index.qmd": {
+    "index.html": "19d5f05e"
+  },
+  "software.qmd": {
+    "software.html": "0872913b"
+  },
+  "404.qmd": {
+    "404.html": "389b3f89"
+  }
+}
