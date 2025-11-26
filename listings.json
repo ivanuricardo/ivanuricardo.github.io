@@ -3,8 +3,8 @@
     "listing": "/posts.html",
     "items": [
       "/posts/ai_discussion/index.html",
-      "/posts/chrome/index.html",
-      "/posts/econpapers/index.html"
+      "/posts/econpapers/index.html",
+      "/posts/chrome/index.html"
     ]
   }
 ]
