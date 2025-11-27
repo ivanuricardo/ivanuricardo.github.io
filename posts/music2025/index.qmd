@@ -1,0 +1,56 @@
+---
+title: "Music Recap 2025"
+author: "Ivan U. Ricardo"
+date: "2025-11-27"
+format: html
+execute:
+  freeze: auto
+  eval: true
+  echo: true
+  output: true
+---
+
+Those who know me know I am quite a music fan.
+For this reason, I thought I would share some of what I have been listening to over the past year.
+I actually don't use spotify (for [security reasons](https://www.bbc.com/news/technology-27597358), they [give artists the smallest amount of royalties](https://www.statista.com/chart/26100/average-amount-of-streams-needed-to-reach-payout-of-dollar1/), and the co-founder [supports military investments](https://mixmag.net/read/spotify-ceo-daniel-ek-pledges-600-million-investment-into-ai-defence-company-news)).
+For this reason, I started using [Quboz](https://www.qobuz.com/us-en/discover), and have been quite happy with the music quality and the personalized information for each track.
+But anyways, here are just a few of the albums that I have listened to over the past year.
+
+# Music
+
+- Blonde on Blonde (Bob Dylan) ❤️
+- Blood on the Tracks (Bob Dylan)
+- Nothing as the Ideal (All Them Witches)
+- Lore (Elder) ❤️
+- Sleeping Through the War (All Them Witches)
+- Live Frogs: Sets 1 & 2 (Les Claypool)
+- Aenima (Tool)
+- Every Sound Has A Color In The Valley Of Night (Night Verses) ❤️
+- From the Gallery of Sleep (Night Verses)
+- Selling England by the Pound (Genesis) ❤️
+- Sailing the Seas of Cheese (Primus)
+- Fresh Fruit For Rotting Vegetables (Dead Kennedys)
+- Lateralus (Tool)
+- VII (The Budos Band)
+- Beat (King Crimson)
+- Larks' Tongues in Aspic (King Crimson)
+- Red (King Crimson)
+- Discipline (King Crimson) ❤️
+- Omens (Elder)
+- Metropolis, Pt. 2: Scenes from a Memory (Dream Theater)
+
+# Concerts
+
+I am also an avid concert goer.
+These are the concerts I have attended this year.
+
+- South of Heaven (festival)
+- Night Verses
+- All Them Witches + Elder
+- King Gizzard and the Lizard Wizard
+
+
+
+
+
+
