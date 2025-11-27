@@ -1,0 +1,32 @@
+{
+  "about.qmd": {
+    "about.html": "8842a914"
+  },
+  "publications.qmd": {
+    "publications.html": "c72cf99d"
+  },
+  "posts.qmd": {
+    "posts.html": "8dc4f1d2"
+  },
+  "index.qmd": {
+    "index.html": "ac0ac8fb"
+  },
+  "posts/ai_discussion/index.qmd": {
+    "index.html": "669f1fbb"
+  },
+  "posts/chrome/index.qmd": {
+    "index.html": "6dd70ca1"
+  },
+  "posts/econpapers/index.qmd": {
+    "index.html": "94436639"
+  },
+  "software.qmd": {
+    "software.html": "f25e5f59"
+  },
+  "404.qmd": {
+    "404.html": "cf5da029"
+  },
+  "posts/music2025/index.qmd": {
+    "index.html": "1b7d0d6f"
+  }
+}
