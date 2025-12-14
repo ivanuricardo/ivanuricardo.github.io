@@ -4,24 +4,6 @@ title-block-banner: assets/backpacking.jpg
 title-block-banner-color: "#100c08"
 ---
 
-<style>
-
-#title-block-header {
-  margin-block-end: -25rem;
-  position: relative;
-  margin-top: 1px;
-  height: 800px;
-}
-
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -10px;
-  height: 85%;
-}
-
-</style>
-
 # Publications
 
 
@@ -32,7 +14,7 @@ title-block-banner-color: "#100c08"
 :::
 *with Alain Hecq and Ines Wilms, in Economics Letters (2025)*
 
-
+[CFE-CM Statistics 2025 Presentation Slides](assets/matrixcointegration.html)
 
 ::: {.callout-tip title="Abstract" collapse=true}
 This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series.
@@ -67,7 +49,7 @@ We illustrate the method's practical usefulness in identifying co-movement struc
 :::
 *with Alain Hecq and Ines Wilms*
 
-[CFE-CM Statistics Presentation Slides](assets/matrixsccfslides.html)
+[CFE-CM Statistics 2024 Presentation Slides](assets/matrixsccfslides.html)
  
 ::: {.callout-tip title="Abstract" collapse=true}
 Reduced-rank regressions are powerful tools used to identify co-movements within economic time series.

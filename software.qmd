@@ -4,27 +4,6 @@ title-block-banner: assets/farren-misty.png
 title-block-banner-color: "#100c08"
 ---
 
-<style>
-
-main {
-    z-index: 100;
-}
-
-#title-block-header {
-  margin-block-end: -25rem;
-  position: relative;
-  margin-top: 1px;
-  height: 800px;
-}
-
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -10px;
-  height: 85%;
-}
-
-</style>
 
 
 ## [MatrixAutoRegressions.jl](https://github.com/ivanuricardo/MatrixAutoRegressions.jl)
