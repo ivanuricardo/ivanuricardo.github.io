@@ -1,0 +1,13 @@
+---
+title: "MMM Presentation on the Singular Value Decomposition"
+author: "Ivan U. Ricardo"
+date: "2026-01-24"
+format: html
+execute:
+  freeze: auto
+  eval: true
+  echo: true
+  output: true
+---
+
+[Presentation Slides here.](mmm-presentation.html)
