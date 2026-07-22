@@ -23,14 +23,12 @@ Through Monte Carlo simulations and a macroeconomic application, we demonstrate 
 :::
 
 
-# Working Papers
-
-### [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://arxiv.org/abs/2509.19911)
+### [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub)
 
 :::{.column-margin}
-![](assets/sccf_restriction.png){height=180}
+![](assets/coincident_indexes.png){height=250}
 :::
-*with Alain Hecq and Ines Wilms*
+*with Alain Hecq and Ines Wilms, in Econometrics and Statistics (2026)*
 
 ::: {.callout-tip title="Abstract" collapse=true}
 We propose a pseudo-structural framework for analyzing contemporaneous co-movements in reduced-rank matrix autoregressive (RRMAR) models.
@@ -41,6 +39,7 @@ We validate the method's finite-sample performance  in terms of estimation accur
 We illustrate the method's practical usefulness in identifying co-movement structures in  two empirical applications: U.S. state-level coincident and leading indicators, and cross-country macroeconomic indicators.
 :::
 
+# Working Papers
 
 ### [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973)
 
@@ -58,4 +57,8 @@ We propose reduced-rank regressions with a tensor structure for the coefficient 
 Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.
 Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.
 :::
+
+# Works in Progress
+
+- Impulse Response Inference for Matrix-Valued Time Series
 
