@@ -33,7 +33,7 @@ This paper proposes a Matrix Error Correction Model to identify cointegration re
 [*Econometrics and Statistics* (2026)]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-[abstract unchanged]
+A pseudo-structural framework is proposed for analyzing contemporaneous co-movements in stationary reduced-rank matrix autoregressive (RRMAR) models. Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, the formulation preserves it, enabling a decomposition of co-movements into three interpretable components: row-specific, column-specific, and joint (row–column) interactions across the matrix-valued time series. The estimator admits standard asymptotic inference and a BIC-type criterion is proposed for the joint selection of the reduced ranks and the autoregressive lag order. The method’s finite-sample performance in terms of estimation accuracy, coverage and rank selection is validated through simulation experiments, including cases of rank misspecification. Practical usefulness is illustrated through the application of the pseudo-structural approach to distill coincident indicators from raw labor market data across nine Midwestern U.S. states, uncovering distinct row-, column-, and joint co-movement patterns that reflect both within-state labor market dynamics and cross-state linkages.
 :::
 :::::
 
