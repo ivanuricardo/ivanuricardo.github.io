@@ -24,7 +24,7 @@ about:
       text: CV
 ---
 
-I develop time series methods for matrix-valued data, where each observation is a matrix of indicators across countries or sectors rather than a single vector.
+I develop time series methods for matrix-valued data, where each observation is a matrix of variables across units such as countries, sectors, or regions.
 Two papers on cointegration and co-movements in these models appear in *Economics Letters* and *Econometrics and Statistics*.
 My current work develops impulse response inference for matrix autoregressions.
 
