@@ -3,19 +3,29 @@ title: "About"
 title-block-banner: assets/starry.jpg
 ---
 
-My name is Ivan and I am from Santa Barbara, California.
-I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics.
-I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands.
-I chose the latter and do not regret a single thing.
-I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University.
-The Netherlands has become my home away from home, and I have grown to love living here.
+I'm from Santa Barbara, California, and studied Economics at UC Santa Barbara.
+Near the end I had to make a decision.
+Either finish a minor in Mathematics, or spend a year abroad in the Netherlands.
+I chose the latter and haven't regretted it once.
 
-During my time in the Netherlands, I found a passion for statistics and computer science.
-I learned as much as I could about programming and best practices, as well as how to apply it to my work.
-This includes:
+That year turned into a master's in Economics and Financial Research (Econometrics) and then a PhD at Maastricht University.
+The Netherlands has become my home away from home.
 
+Somewhere along the way I picked up a serious interest in statistical computing, and I've come to care a lot about how research code gets written.
+This includes interests such as
+
+- Open and reproducible science, and open source tools
+- Coding practices that hold up in the social sciences
 - Privacy and data rights
-- Open/reproducible science and open source programs
-- Best coding practices for social sciences
 
-In my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here.
+Outside of work I boulder, hike, play chess, and play disc golf. Every photo on this site comes from one of those.
+
+## Teaching
+
+**Maastricht University**
+
+- Econometic Methods I (Econometrics and Operations Research) - Teaching Assistant, 2024, 2025
+- Statistics I (University College Maastricht) - Teaching Assistant, 2023, 2024
+- Macroeconomics I (Econometrics and Operations Research) - Teaching Assistant, 2023
+- Applied Statistics (Maastricht Science Program) - Teaching Assistant, 2025
+- Quantitative Methods III (International Business) - Teaching Assistant, 2023, 2024

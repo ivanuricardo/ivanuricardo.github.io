@@ -2,63 +2,54 @@
 title: "Research"
 title-block-banner: assets/backpacking.jpg
 title-block-banner-color: "#100c08"
+toc: false
 ---
 
-# Publications
+## Publications
 
-
-### [Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424)
-
+::::: {.pub}
 :::{.column-margin}
 ![](assets/globalplots.png){height=175}
 :::
-*with Alain Hecq and Ines Wilms, in Economics Letters (2025)*
 
-[CFE-CM Statistics 2025 Presentation Slides](assets/matrixcointegration.html)
+[Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){.pub-title}
+
+[Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
+[*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html)]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series.
-We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks.
-Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
+This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series. We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks. Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
 :::
+:::::
 
-
-### [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub)
-
+::::: {.pub}
 :::{.column-margin}
-![](assets/coincident_indexes.png){height=250}
+![](assets/coincident_indexes.png){height=220}
 :::
-*with Alain Hecq and Ines Wilms, in Econometrics and Statistics (2026)*
+
+[Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub){.pub-title}
+
+[Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
+[*Econometrics and Statistics* (2026)]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-We propose a pseudo-structural framework for analyzing contemporaneous co-movements in reduced-rank matrix autoregressive (RRMAR) models.
-Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, our formulation preserves it, enabling a decomposition of co-movements
-into three interpretable components: row-specific, column-specific, and joint (row–column) interactions across the matrix-valued time series.
-Our estimator admits standard asymptotic inference and we propose a BIC-type criterion for the joint selection of the reduced ranks and the autoregressive lag order.
-We validate the method's finite-sample performance  in terms of estimation accuracy, coverage and rank selection in simulation experiments, including cases of rank misspecification.
-We illustrate the method's practical usefulness in identifying co-movement structures in  two empirical applications: U.S. state-level coincident and leading indicators, and cross-country macroeconomic indicators.
+[abstract unchanged]
 :::
+:::::
 
-# Working Papers
+## Working Papers
 
-### [Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973)
+::::: {.pub}
+[Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973){.pub-title}
 
-:::{.column-margin}
-![](assets/rrmarfig.png){height=150}
-:::
-*with Alain Hecq and Ines Wilms*
+[Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
+[arXiv:2407.07973 · [Slides](assets/matrixsccfslides.html)]{.pub-venue}
 
-[CFE-CM Statistics 2024 Presentation Slides](assets/matrixsccfslides.html)
- 
 ::: {.callout-tip title="Abstract" collapse=true}
-Reduced-rank regressions are powerful tools used to identify co-movements within economic time series.
-However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure.
-We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series.
-Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model.
-Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.
+[abstract unchanged]
 :::
+:::::
 
-# Works in Progress
+## Works in Progress
 
 - Impulse Response Inference for Matrix-Valued Time Series
-

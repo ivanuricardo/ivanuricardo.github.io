@@ -1,9 +1,15 @@
 ---
-title: "Welcome"
+title: "Ivan Ricardo"
+subtitle: "PhD Candidate in Econometrics · Maastricht University"
 image: "assets/PDF-UM-SBE-Ivan-Ricardo-QE-001-C.jpg"
 about:
   template: jolla
+  image-shape: round
+  image-width: 13em
   links:
+    - icon: envelope
+      href: mailto:iu.ricardo@maastrichtuniversity.nl
+      text: Email
     - icon: linkedin
       href: https://www.linkedin.com/in/ivanuricardo/
       text: LinkedIn
@@ -18,11 +24,7 @@ about:
       text: CV
 ---
 
-Hi! My name is Ivan and I am currently a PhD student at Maastricht University.
-
-My research focuses on **time series econometrics**, **macroeconometrics**, and the use of **structured data** in econometric modeling.
-I am particularly interested in matrix-valued data, statistical inference, and applications to climate data and macroeconomics.  
-
-Contact: iu.ricardo@maastrichtuniversity.nl
-
+I develop time series methods for matrix-valued data, where each observation is a matrix of indicators across countries or sectors rather than a single vector.
+Two papers on cointegration and co-movements in these models appear in *Economics Letters* and *Econometrics and Statistics*.
+My current work develops impulse response inference for matrix autoregressions.
 

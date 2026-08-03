@@ -14,12 +14,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Research
+        href: publications.qmd
+      - text: About
+        href: about.qmd
       - text: Posts
         href: posts.qmd
       - text: Software
         href: software.qmd
-      - publications.qmd
     tools:
       - icon: github
         href: https://github.com/ivanuricardo
