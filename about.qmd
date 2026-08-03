@@ -5,10 +5,10 @@ title-block-banner: assets/starry.jpg
 
 I'm from Santa Barbara, California, and studied Economics at UC Santa Barbara.
 Near the end I had to make a decision.
-Either finish a minor in Mathematics, or spend a year abroad in the Netherlands.
+Either finish a minor in Mathematics, or spend a semester abroad in the Netherlands.
 I chose the latter and haven't regretted it once.
 
-That year turned into a master's in Economics and Financial Research (Econometrics) and then a PhD at Maastricht University.
+That semester turned into a master's in Economics and Financial Research (Econometrics) and then a PhD at Maastricht University.
 The Netherlands has become my home away from home.
 
 Somewhere along the way I picked up a serious interest in statistical computing, and I've come to care a lot about how research code gets written.
