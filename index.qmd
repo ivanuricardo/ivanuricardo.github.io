@@ -28,3 +28,4 @@ I develop time series methods for matrix-valued data, where each observation is 
 Two papers on cointegration and co-movements in these models appear in *Economics Letters* and *Econometrics and Statistics*.
 My current work develops impulse response inference for matrix autoregressions.
 
+**I am on the job market for 2026–2027.**
