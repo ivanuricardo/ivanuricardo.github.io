@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +42,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7a92b5023d34ba576d89181d2822a0c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7d9b57d3ca002fd659dd21ca7e00e5e9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7a92b5023d34ba576d89181d2822a0c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e0921dc3cabab4aedcbdee6782f20890.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-832e36768d98f042582f44aea425e974.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e0921dc3cabab4aedcbdee6782f20890.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -270,6 +273,10 @@ background-size: cover;
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -280,10 +287,6 @@ background-size: cover;
   <li class="nav-item">
     <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Research</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -337,16 +340,28 @@ background-size: cover;
 
 
 
-<p>My name is Ivan and I am from Santa Barbara, California. I attended the University of California, Santa Barbara (UCSB) and graduated with a degree in Economics. I then had to make a decision-either graduate with a minor in Mathematics or spend a year abroad in the Netherlands. I chose the latter and do not regret a single thing. I ended up finishing a masters in Economics and Financial Research spec. Econometrics and am now currently a PhD candidate at Maastricht University. The Netherlands has become my home away from home, and I have grown to love living here.</p>
-<p>During my time in the Netherlands, I found a passion for statistics and computer science. I learned as much as I could about programming and best practices, as well as how to apply it to my work. This includes:</p>
+<p>I’m from Santa Barbara, California, and studied Economics at UC Santa Barbara. Near the end I had to make a decision. Either finish a minor in Mathematics, or spend a year abroad in the Netherlands. I chose the latter and haven’t regretted it once.</p>
+<p>That year turned into a master’s in Economics and Financial Research (Econometrics) and then a PhD at Maastricht University. The Netherlands has become my home away from home.</p>
+<p>Somewhere along the way I picked up a serious interest in statistical computing, and I’ve come to care a lot about how research code gets written. This includes interests such as</p>
 <ul>
+<li>Open and reproducible science, and open source tools</li>
+<li>Coding practices that hold up in the social sciences</li>
 <li>Privacy and data rights</li>
-<li>Open/reproducible science and open source programs</li>
-<li>Best coding practices for social sciences</li>
 </ul>
-<p>In my free time, I enjoy bouldering, hiking, chess, and disc golf. All the photos you will see on this website will be from one of the activities mentioned here.</p>
+<p>Outside of work I boulder, hike, play chess, and play disc golf. Every photo on this site comes from one of those.</p>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<p><strong>Maastricht University</strong></p>
+<ul>
+<li>Econometic Methods I (Econometrics and Operations Research) - Teaching Assistant, 2024, 2025</li>
+<li>Statistics I (University College Maastricht) - Teaching Assistant, 2023, 2024</li>
+<li>Macroeconomics I (Econometrics and Operations Research) - Teaching Assistant, 2023</li>
+<li>Applied Statistics (Maastricht Science Program) - Teaching Assistant, 2025</li>
+<li>Quantitative Methods III (International Business) - Teaching Assistant, 2023, 2024</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

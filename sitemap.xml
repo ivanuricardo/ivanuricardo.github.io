@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ivanuricardo.github.io/posts.html</loc>
-    <lastmod>2026-07-22T17:23:08.048Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ivanuricardo.github.io/about.html</loc>
-    <lastmod>2026-07-22T17:23:07.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ivanuricardo.github.io/posts/ai_discussion/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.085Z</lastmod>
+    <loc>https://ivanuricardo.github.io/index.html</loc>
+    <lastmod>2026-08-03T18:11:47.944Z</lastmod>
   </url>
   <url>
     <loc>https://ivanuricardo.github.io/posts/music2025/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.087Z</lastmod>
+    <lastmod>2026-08-03T18:11:47.987Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/software.html</loc>
-    <lastmod>2026-07-22T17:23:08.087Z</lastmod>
+    <loc>https://ivanuricardo.github.io/posts/ai_discussion/index.html</loc>
+    <lastmod>2026-08-03T18:11:47.985Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ivanuricardo.github.io/posts.html</loc>
+    <lastmod>2026-08-03T18:11:47.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ivanuricardo.github.io/about.html</loc>
+    <lastmod>2026-08-03T18:11:47.860Z</lastmod>
   </url>
   <url>
     <loc>https://ivanuricardo.github.io/publications.html</loc>
-    <lastmod>2026-07-22T17:23:08.087Z</lastmod>
+    <lastmod>2026-08-03T18:11:47.987Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/posts/econpapers/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.087Z</lastmod>
+    <loc>https://ivanuricardo.github.io/software.html</loc>
+    <lastmod>2026-08-03T18:11:47.987Z</lastmod>
   </url>
   <url>
     <loc>https://ivanuricardo.github.io/posts/chrome/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.086Z</lastmod>
+    <lastmod>2026-08-03T18:11:47.986Z</lastmod>
   </url>
   <url>
     <loc>https://ivanuricardo.github.io/posts/MMM_presentation/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.049Z</lastmod>
+    <lastmod>2026-08-03T18:11:47.944Z</lastmod>
   </url>
   <url>
-    <loc>https://ivanuricardo.github.io/index.html</loc>
-    <lastmod>2026-07-22T17:23:08.048Z</lastmod>
+    <loc>https://ivanuricardo.github.io/posts/econpapers/index.html</loc>
+    <lastmod>2026-08-03T18:11:47.986Z</lastmod>
   </url>
 </urlset>
