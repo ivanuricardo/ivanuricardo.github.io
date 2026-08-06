@@ -5,7 +5,7 @@ image: "assets/PDF-UM-SBE-Ivan-Ricardo-QE-001-C.jpg"
 about:
   template: jolla
   image-shape: round
-  image-width: 13em
+  image-width: 12em
   links:
     - icon: envelope
       href: mailto:iu.ricardo@maastrichtuniversity.nl
@@ -23,9 +23,18 @@ about:
       href: /assets/ivanricardocv.pdf
       text: CV
 ---
-
 I develop time series methods for matrix-valued data, where each observation is a matrix of variables across units such as countries, sectors, or regions.
 Two papers on cointegration and co-movements in these models appear in *Economics Letters* and *Econometrics and Statistics*.
 My current work develops impulse response inference for matrix autoregressions.
 
-**I am on the job market for 2026–2027.**
+[I am on the job market for 2026–2027]{.badge .bg-primary .fs-6}
+
+::: {.news}
+### News
+
+**Dec 2026** — Presenting at CFE-CM Statistics, Berlin.
+
+**Fall 2026** — Visiting Prof. Yaser Samadi at Southern Illinois University.
+
+**Jun 2026** — "Decomposing Co-Movements" out in *Econometrics and Statistics*.
+:::
