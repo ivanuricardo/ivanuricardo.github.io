@@ -39,6 +39,7 @@ format:
       dark: darkly
     css: styles.css
     toc: false
-
-
-
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://ivanricardo.goatcounter.com/count"
+                  async src="//gc.zgo.at/count.js"></script>
