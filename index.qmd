@@ -22,9 +22,6 @@ about:
     - icon: file-earmark-text
       href: /assets/ivanricardocv.pdf
       text: CV
-    - icon: shield-check
-      href: privacy.qmd
-      text: Privacy
 ---
 
 I develop time series methods for matrix-valued data, where each observation is a matrix of variables across units such as countries, sectors, or regions.
