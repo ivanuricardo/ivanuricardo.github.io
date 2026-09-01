@@ -35,7 +35,7 @@ My current work develops impulse response inference for matrix autoregressions.
 
 **Dec 2026** — Presenting at CFE-CM Statistics, Berlin.
 
-**October 2026** — Presenting at Midwest Econometrics Group, Cincinnati.
+**Oct 2026** — Presenting at the Midwest Econometrics Group, Cincinnati.
 
 **Fall 2026** — Visiting Prof. Yaser Samadi at Southern Illinois University.
 
