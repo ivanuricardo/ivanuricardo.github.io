@@ -432,12 +432,16 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="working-papers" class="level2">
+<section id="working-papers" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<div class="pub">
-<p><a href="https://arxiv.org/abs/2407.07973" class="pub-title">Reduced-Rank Matrix Autoregressions: A Medium <span class="math inline">\(N\)</span> Approach</a></p>
+<div class="pub page-columns page-full">
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="assets/projection_example.png" height="160"></p>
+</div></div><div class="pub">
+<p><a href="https://arxiv.org/abs/2610.05405" class="pub-title">Impulse Response Inference in Matrix Autoregressions</a></p>
 <p><span class="pub-authors">Alain Hecq, Ivan Ricardo, Ines Wilms</span><br>
-<span class="pub-venue">arXiv:2407.07973 · <a href="assets/matrixsccfslides.html">Slides</a></span></p>
+<span class="pub-venue">arXiv:2610.05405 · <a href="assets/ivan_meg_presentation.html">Slides</a></span></p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -450,19 +454,14 @@ window.Quarto = {
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Reduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S.&nbsp;states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements.</p>
+<p>Matrix autoregressive (MAR) models offer a parsimonious framework for modeling matrix-valued time series, yet tools for estimation and inference for their impulse response functions are lacking. We develop asymptotic and bootstrap-based inference for impulse responses of stable MAR(<span class="math inline">\(p\)</span>) models. We derive the joint asymptotic distribution of the coefficient and covariance estimators, which permits closed-form delta-method standard errors. To address finite-sample bias, we propose ProBAB-MAR, a bias-corrected bootstrap that projects the corrected coefficients back onto the Kronecker parameter space, and prove that it attains asymptotically correct coverage. Monte Carlo simulations show that delta-method intervals undercover in small samples, while ProBAB-MAR achieves near-nominal coverage with intervals considerably narrower than those from an unrestricted VAR. An application to euro area inflation illustrates how shocks transmit across countries and inflation categories.</p>
 </div>
 </div>
 </div>
 </div>
-</section>
-<section id="works-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="works-in-progress">Works in Progress</h2>
-<ul>
-<li>Impulse Response Inference for Matrix-Valued Time Series</li>
-</ul>
 
 
+</div>
 </section>
 
 </main> <!-- /main -->

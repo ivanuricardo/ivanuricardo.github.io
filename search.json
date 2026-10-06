@@ -60,21 +60,14 @@
     "href": "publications.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nReduced-Rank Matrix Autoregressions: A Medium \\(N\\) Approach\nAlain Hecq, Ivan Ricardo, Ines Wilms\narXiv:2407.07973 · Slides\n\n\n\n\n\n\nTipAbstract\n\n\n\n\n\nReduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S. states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements."
-  },
-  {
-    "objectID": "publications.html#works-in-progress",
-    "href": "publications.html#works-in-progress",
-    "title": "Research",
-    "section": "Works in Progress",
-    "text": "Works in Progress\n\nImpulse Response Inference for Matrix-Valued Time Series"
+    "text": "Working Papers\n\n\n\n\n\nImpulse Response Inference in Matrix Autoregressions\nAlain Hecq, Ivan Ricardo, Ines Wilms\narXiv:2610.05405 · Slides\n\n\n\n\n\n\nTipAbstract\n\n\n\n\n\nMatrix autoregressive (MAR) models offer a parsimonious framework for modeling matrix-valued time series, yet tools for estimation and inference for their impulse response functions are lacking. We develop asymptotic and bootstrap-based inference for impulse responses of stable MAR(\\(p\\)) models. We derive the joint asymptotic distribution of the coefficient and covariance estimators, which permits closed-form delta-method standard errors. To address finite-sample bias, we propose ProBAB-MAR, a bias-corrected bootstrap that projects the corrected coefficients back onto the Kronecker parameter space, and prove that it attains asymptotically correct coverage. Monte Carlo simulations show that delta-method intervals undercover in small samples, while ProBAB-MAR achieves near-nominal coverage with intervals considerably narrower than those from an unrestricted VAR. An application to euro area inflation illustrates how shocks transmit across countries and inflation categories."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ivan Ricardo",
     "section": "",
-    "text": "I develop time series methods for matrix-valued data, where each observation is a matrix of variables across units such as countries, sectors, or regions. Two papers on cointegration and co-movements in these models appear in Economics Letters and Econometrics and Statistics. My current work develops impulse response inference for matrix autoregressions.\nI am on the job market for 2026–2027\n\nNews\nFall 2026 — Visiting Prof. Yaser Samadi at Southern Illinois University.\nOct 2026 — Presenting at the Midwest Econometrics Group, Cincinnati.\nDec 2026 — Presenting at CFE-CM Statistics, Berlin."
+    "text": "I develop time series methods for matrix-valued data, with variables observed across units such as countries or sectors. Papers on cointegration and co-movements appear in Economics Letters and Econometrics and Statistics.\nI am on the job market for 2026–2027\n\n\nJob Market Paper\n\n\nImpulse Response Inference for Matrix Autoregressions\nwith Alain Hecq and Ines Wilms\nMatrix autoregressions model data such as inflation across countries and categories more parsimoniously than a VAR, but valid inference for their impulse responses has been lacking. We derive delta-method standard errors and propose ProBAB-MAR, a bias-corrected bootstrap with asymptotically correct coverage that delivers narrower intervals than an unrestricted VAR in simulations and an application to Euro-area inflation.\nPaper Code Slides\n\n\n\n\n\nBias correction moves the estimate off the Kronecker structure. Projecting back restores it.\n\n\n\n\n\n\n\nNews\nFall 2026 — Visiting Southern Illinois University (host: S. Yaser Samadi).\nOct 2026 — Presenting at the Midwest Econometrics Group, Cincinnati.\nDec 2026 — Presenting at CFE-CMStatistics, Berlin."
   },
   {
     "objectID": "posts/ai_discussion/index.html",
