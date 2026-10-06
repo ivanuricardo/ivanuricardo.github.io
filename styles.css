@@ -59,3 +59,36 @@ p.subtitle {
   color: var(--bs-secondary-color);
   font-weight: 600;
 }
+
+.jmp-hero {
+  text-align: center;
+  margin: 2rem 0 3rem;
+}
+
+.jmp-label {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+}
+
+.jmp-hero h2 {
+  border-bottom: none;   /* Quarto underlines h2 by default */
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1.9rem;
+}
+
+.jmp-hero h2 a {
+  text-decoration: none;
+}
+
+.jmp-hero .btn {
+  margin: 0 0.2rem;
+}
+
+@media (max-width: 767.98px) {
+  div.quarto-about-jolla {
+    margin-top: 6rem;
+  }
+}

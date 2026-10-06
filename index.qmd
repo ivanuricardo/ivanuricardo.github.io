@@ -5,7 +5,7 @@ image: "assets/PDF-UM-SBE-Ivan-Ricardo-QE-001-C.jpg"
 about:
   template: jolla
   image-shape: round
-  image-width: 12em
+  image-width: 9em
   links:
     - icon: envelope
       href: mailto:iu.ricardo@maastrichtuniversity.nl
@@ -22,23 +22,47 @@ about:
     - icon: file-earmark-text
       href: /assets/ivanricardocv.pdf
       text: CV
+format:
+  html:
+    grid:
+      body-width: 850px
 ---
 
-I develop time series methods for matrix-valued data, where each observation is a matrix of variables across units such as countries, sectors, or regions.
-Two papers on cointegration and co-movements in these models appear in *Economics Letters* and *Econometrics and Statistics*.
-My current work develops impulse response inference for matrix autoregressions.
+I develop time series methods for matrix-valued data, with variables observed across units such as countries or sectors.
+Papers on cointegration and co-movements appear in *Economics Letters* and *Econometrics and Statistics*.
 
 [I am on the job market for 2026–2027]{.badge .bg-primary .fs-6}
 
+:::: {#jmp .jmp}
+### Job Market Paper
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-7}
+**[Impulse Response Inference for Matrix Autoregressions](https://arxiv.org/abs/XXXX.XXXXX)**  
+[with Alain Hecq and Ines Wilms]{.text-muted}
+
+Matrix autoregressions model data such as inflation across countries and categories more parsimoniously than a VAR, but valid inference for their impulse responses has been lacking.
+We derive delta-method standard errors and propose ProBAB-MAR, a bias-corrected bootstrap with asymptotically correct coverage that delivers narrower intervals than an unrestricted VAR in simulations and an application to Euro-area inflation.
+
+[Paper](https://arxiv.org/abs/2610.05405 ){.btn .btn-primary .btn-sm}
+[Code](https://github.com/ivanuricardo/matrix_irf_reproduction){.btn .btn-outline-primary .btn-sm}
+[Slides](assets/ivan_meg_presentation.html){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-4 .g-start-md-9}
+![Bias correction moves the estimate off the Kronecker structure. Projecting back restores it.](assets/projection_example.png){fig-alt="Diagram of a bias-corrected estimator projected back onto the space of Kronecker products"}
+:::
+:::
+::::
+
 ::: {.news}
+
 ### News
 
-**Fall 2026** — Visiting Prof. Yaser Samadi at Southern Illinois University.
+**Fall 2026** — Visiting Southern Illinois University (host: S. Yaser Samadi).
 
 **Oct 2026** — Presenting at the Midwest Econometrics Group, Cincinnati.
 
-**Dec 2026** — Presenting at CFE-CM Statistics, Berlin.
-
-
+**Dec 2026** — Presenting at CFE-CMStatistics, Berlin.
 
 :::

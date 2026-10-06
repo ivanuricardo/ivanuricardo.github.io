@@ -40,16 +40,18 @@ A pseudo-structural framework is proposed for analyzing contemporaneous co-movem
 ## Working Papers
 
 ::::: {.pub}
-[Reduced-Rank Matrix Autoregressions: A Medium $N$ Approach](https://arxiv.org/abs/2407.07973){.pub-title}
+:::{.column-margin}
+![](assets/projection_example.png){height=160}
+:::
+
+::::: {.pub}
+[Impulse Response Inference in Matrix Autoregressions](https://arxiv.org/abs/2610.05405){.pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[arXiv:2407.07973 · [Slides](assets/matrixsccfslides.html)]{.pub-venue}
+[arXiv:2610.05405 · [Slides](assets/ivan_meg_presentation.html)]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-Reduced-rank regressions are powerful tools used to identify co-movements within economic time series. However, this task becomes challenging when we observe matrix-valued time series, where each dimension may have a different co-movement structure. We propose reduced-rank regressions with a tensor structure for the coefficient matrix to provide new insights into co-movements within and between the dimensions of matrix-valued time series. Moreover, we relate the co-movement structures to two commonly used reduced-rank models, namely the serial correlation common feature and the index model. Two empirical applications involving U.S.\ states and economic indicators for the Eurozone and North American countries illustrate how our new tools identify co-movements. 
+Matrix autoregressive (MAR) models offer a parsimonious framework for modeling matrix-valued time series, yet tools for estimation and inference for their impulse response functions are lacking. We develop asymptotic and bootstrap-based inference for impulse responses of stable MAR($p$) models. We derive the joint asymptotic distribution of the coefficient and covariance estimators, which permits closed-form delta-method standard errors. To address finite-sample bias, we propose ProBAB-MAR, a bias-corrected bootstrap that projects the corrected coefficients back onto the Kronecker parameter space, and prove that it attains asymptotically correct coverage. Monte Carlo simulations show that delta-method intervals undercover in small samples, while ProBAB-MAR achieves near-nominal coverage with intervals considerably narrower than those from an unrestricted VAR. An application to euro area inflation illustrates how shocks transmit across countries and inflation categories.
 :::
 :::::
 
-## Works in Progress
-
-- Impulse Response Inference for Matrix-Valued Time Series
