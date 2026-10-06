@@ -38,7 +38,7 @@ Papers on cointegration and co-movements appear in *Economics Letters* and *Econ
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-7}
-**[Impulse Response Inference for Matrix Autoregressions](https://arxiv.org/abs/XXXX.XXXXX)**  
+**[Impulse Response Inference for Matrix Autoregressions](https://arxiv.org/abs/2610.05405)**  
 [with Alain Hecq and Ines Wilms]{.text-muted}
 
 Matrix autoregressions model data such as inflation across countries and categories more parsimoniously than a VAR, but valid inference for their impulse responses has been lacking.
