@@ -1103,22 +1103,6 @@ Ines Wilms <a href="https://orcid.org/0000-0003-3269-4601" class="quarto-title-a
 <li>Fama-French portfolios: size <span class="math inline">\(\times\)</span> book-to-market <span class="citation" data-cites="wang_factor_2019">(<a href="#/references" role="doc-biblioref" onclick>Wang et al. 2019</a>)</span></li>
 <li>State employment: states <span class="math inline">\(\times\)</span> industries <span class="citation" data-cites="samadi2024marest">(<a href="#/references" role="doc-biblioref" onclick>Samadi and Billard 2024</a>)</span></li>
 </ul>
-<aside class="notes">
-<ul>
-<li>GVAR: country models linked through foreign variables; each quarter is a countries x variables matrix</li>
-<li>Wang, Liu and Chen: 10 x 10 size by book-to-market portfolios, monthly 1964 to 2015</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="our-setting" class="slide level2 nostretch">
@@ -1134,23 +1118,6 @@ display:block!important;
 </ul>
 </div>
 </div></div>
-<aside class="notes">
-<ul>
-<li>Each month is a 5 x 3 matrix, 217 months in total</li>
-<li>Sample ends in 2019 so the estimates are not driven by the pandemic</li>
-<li>Series are demeaned, no intercept in the model</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </section>
 <section id="why-matrix-valued-data" class="slide level2">
 <h2>Why Matrix-valued data?</h2>
@@ -1198,23 +1165,6 @@ display:block!important;
 </div>
 </div>
 </div>
-<aside class="notes">
-<ul>
-<li>450 coefficients from about 200 months of data</li>
-<li>Point estimates only, Chen, Xiao and Yang (2021). VAR residual bootstrap carried over in recent structural MAR work</li>
-<li>The available asymptotic results stop at the coefficient matrices</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="main-contributions" class="slide level2">
@@ -1226,27 +1176,7 @@ display:block!important;
 </ul>
 <div class="fragment">
 <p>In simulations ProBAB intervals attain near-nominal coverage, with bands <strong>much narrower</strong> than the unrestricted VAR</p>
-<aside class="notes">
-<ul>
-<li>These are the three things to remember. We focus on the second</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
-</section>
-<section>
-<section id="from-var-to-mar" class="title-slide slide level1 center" data-background-color="#40666e">
-<h1>From VAR to MAR</h1>
-
 </section>
 <section id="matrix-autoregressive-model-mar" class="slide level2">
 <h2>Matrix Autoregressive Model (MAR)</h2>
@@ -1273,23 +1203,6 @@ margin: 0.4em 0;
 <p><strong>A1 (Stability).</strong> All companion eigenvalues lie strictly inside the unit circle.</p>
 <p><strong>A2 (Innovations).</strong> <span class="math inline">\(\mathbf{U}_t\)</span> is white noise with covariance <span class="math inline">\(\boldsymbol{\Sigma}_2 \otimes \boldsymbol{\Sigma}_1\)</span>, and <span class="math inline">\(\boldsymbol{\Sigma}_1, \boldsymbol{\Sigma}_2 \succ 0\)</span>.</p>
 </div>
-<aside class="notes">
-<ul>
-<li>The -1 is the scale indeterminacy between A_j and B_j, resolved by ||A_j||_F = 1 and a sign convention; same for the covariance factors</li>
-<li>Estimated by Gaussian (quasi-)ML with alternating updates, initialized at the projection estimator</li>
-<li>Everything we know about VAR impulse responses applies, because this IS a VAR. What changes is that the parameter space is the set of Kronecker products</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="impulse-responses" class="slide level2">
@@ -1307,24 +1220,6 @@ display:block!important;
 </div>
 <div class="fragment">
 <p>Structural shocks: <span class="math inline">\(\theta_{ik,h} = \mathbf{e}_i^\top \boldsymbol{\Theta}_h \mathbf{P}\,\mathbf{e}_k\)</span>, with a separable impact matrix <span class="math inline">\(\mathbf{P} = \mathbf{P}_2 \otimes \mathbf{P}_1\)</span> from <span class="math inline">\(\boldsymbol{\Sigma}_1 = \mathbf{P}_1\mathbf{P}_1^\top\)</span> and <span class="math inline">\(\boldsymbol{\Sigma}_2 = \mathbf{P}_2\mathbf{P}_2^\top\)</span></p>
-<aside class="notes">
-<ul>
-<li>k = r + (s - 1) N_1 is the position of entry (r, s) in vec(U_t)</li>
-<li>One shock gives a whole 5 x 3 matrix of responses: every category in every country</li>
-<li>Separable P keeps the impact a Kronecker vector, which the next slide needs; e.g. Cholesky factors of Sigma_1 and Sigma_2</li>
-<li>Stability for geometric decay, white noise (uncorrelated) for covariance stationary “innovations”</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="the-response-inherits-the-structure" class="slide level2">
@@ -1354,28 +1249,7 @@ display:block!important;
 </div>
 <div class="fragment">
 <p>Proportional co-movement is relaxed <strong>gradually</strong> with the horizon.</p>
-<aside class="notes">
-<ul>
-<li>Rank one for the MAR(1) is already in Chen, Xiao and Yang (2021); the MAR(p) bound is ours</li>
-<li>A2 is what makes the structural impact a Kronecker vector, so the bound carries over to structural responses</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
-</section></section>
-<section>
-<section id="inference-for-mar-impulse-responses" class="title-slide slide level1 center" data-background-color="#40666e">
-<h1>Inference for MAR Impulse Responses</h1>
-
 </section>
 <section id="joint-asymptotic-normality" class="slide level2">
 <h2>Joint Asymptotic Normality</h2>
@@ -1403,23 +1277,6 @@ display:block!important;
 <li>The coefficient block is known <span class="citation" data-cites="chen_autoregressive_2021">(<a href="#/references" role="doc-biblioref" onclick>Chen et al. 2021</a>)</span>, we provide the covariance block and the joint law</li>
 <li>The covariance block depends on fourth moments of <span class="math inline">\(\mathbf{U}_t\)</span></li>
 </ul>
-<aside class="notes">
-<ul>
-<li>Coefficient block: Chen et al. (2021) for p = 1, Li and Xiao (2021) for general p under Gaussianity</li>
-<li>QMLE under the normalizations ||A_j||_F = 1 and ||Sigma_1||_F = 1 plus a sign convention</li>
-<li>Block diagonal because the regressors are predetermined; third moments drop out</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="from-parameters-to-responses" class="slide level2">
@@ -1435,27 +1292,8 @@ display:block!important;
 </div>
 <div class="fragment">
 <p>Closed form, but centered at a <strong>biased</strong> estimate in small samples.</p>
-<aside class="notes">
-<ul>
-<li>The variance splits into a propagation term (coefficients, through Omega_C) and an impact term (covariance, through Omega_sigma); at h = 0 only the impact term survives</li>
-<li>Omega_C is singular, rank at most p(N1^2 + N2^2 - 1): the restriction shows up as a rank deficiency in the VAR coefficient space</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
-</div>
-</section>
-<section id="where-the-bab-mar-stops-working" class="slide level2">
-<h2>Where the BAB-MAR Stops Working</h2>
 <p>Bootstrap-after-bootstrap <span class="citation" data-cites="kilian_small_1998">(<a href="#/references" role="doc-biblioref" onclick>Kilian 1998</a>)</span>: bootstrap to estimate the bias, correct the <strong>coefficients</strong>, then bootstrap again from the corrected model.</p>
+</div>
 <div class="fragment">
 <div class="columns">
 <div class="column" style="width:55%;">
@@ -1490,24 +1328,6 @@ display:block!important;
 </div>
 </div>
 </div>
-<aside class="notes">
-<ul>
-<li>BAB-MAR is the natural first attempt (naive)</li>
-<li>Kilian’s principle: correct the parameter, so the corrected object is still a model. Here the parameter space is not an open set, it is the set of Kronecker products</li>
-<li>The bias estimate is an average of differences of Kronecker products, and that set is not closed under addition</li>
-<li>The 8:50 talk is about geometry too, a nice link if it lands</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="projecting-back" class="slide level2">
@@ -1534,23 +1354,6 @@ display:block!important;
 </div>
 </div>
 </div>
-<aside class="notes">
-<ul>
-<li>An apparently nonlinear matrix approximation problem is one SVD</li>
-<li>Since C-hat already lies on the manifold, P(C-hat) = C-hat, which is what keeps the perturbation small</li>
-<li>The matrix that GENERATES the bootstrap data is the one whose eigenvalues must be checked</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="sec-probab" class="slide level2">
@@ -1575,23 +1378,6 @@ display:block!important;
 </div>
 </div>
 <p><a href="#/sec-algorithm"><span class="button">Full algorithm</span></a></p>
-<aside class="notes">
-<ul>
-<li>(~40s) Same two stages as Kilian, one extra operator applied twice</li>
-<li>delta is the largest value on {1, 0.99, …, 0.01} keeping the projected matrix stationary; no correction if none qualifies</li>
-<li>Reuse Psi-hat in Stage 2: B1 + B2 re-estimations instead of B1 x B2</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="sec-validity" class="slide level2">
@@ -1632,28 +1418,8 @@ display:block!important;
 </div>
 </div>
 <p><a href="#/sec-assumptions"><span class="button">Assumptions</span></a></p>
-<aside class="notes">
-<ul>
-<li>(~45s) Step one: the bootstrap process is a triangular array, not stationary and ergodic. LLN from the truncated MMA and geometric decay, martingale CLT for triangular arrays (Brown, 1971)</li>
-<li>Step two, projection: ||P(M) - M_0|| &lt;= 2 ||M - M_0|| for any Kronecker M_0, so it does not undo the gap</li>
-<li>Step two, shrinkage: P(delta = 1) -&gt; 1 because the projected corrected matrix converges to C, whose spectral radius is below one</li>
-<li>If asked how Psi-hat is controlled: the bias lemma in the appendix, which supposes sqrt(T)(C-hat* - C-hat) is uniformly integrable under P*</li>
-<li>Then the delta method carries the result to the impulse response</li>
-<li>Honest caveat: the guarantee is pointwise in the parameter, not uniform up to the unit circle</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
-</section></section>
+</section>
 <section>
 <section id="simulation-study" class="title-slide slide level1 center" data-background-color="#40666e">
 <h1>Simulation Study</h1>
@@ -1668,27 +1434,6 @@ display:block!important;
 <li>Delta method falls to <span class="math inline">\(80\%\)</span>; <strong>ProBAB-MAR near nominal</strong> at every horizon</li>
 <li>BAB-VAR also covers, but its bands are on average <strong><span class="math inline">\(2.57\times\)</span> as wide</strong></li>
 </ul>
-<aside class="notes">
-<ul>
-<li>(~80s) Panels: bias, coverage, width, horizons 1 to 15. R = 1000, B1 = 1000, B2 = 2000</li>
-<li>Seven methods: MAR delta, MAR delta recentered at C-tilde, BAB-MAR, ProBAB-MAR; VAR delta, VAR delta recentered, BAB-VAR</li>
-<li>Bias: VAR -0.03 at worst, -0.005 after correction; MAR -0.02 at worst, close to zero after</li>
-<li>Recentering the delta method at C-tilde recovers most of the gap: bias is most of the problem</li>
-<li>BAB-MAR and ProBAB-MAR are almost indistinguishable</li>
-<li>BAB-VAR becomes conservative at long horizons, approaching 100%: imprecision, not an advantage</li>
-<li>450 coefficients against 66</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="sec-samplesize" class="slide level2">
@@ -1703,27 +1448,6 @@ display:block!important;
 <div class="absolute" style="bottom: 0px; right: 0px; ">
 <p><a href="#/sec-unitroot"><span class="button">Near the unit root</span></a></p>
 </div>
-<aside class="notes">
-<ul>
-<li>(~45s) Same design at T = 200 and 500 in the paper’s appendix; the figure shows T = 100</li>
-<li>Raw MAR bias reaches -0.06 at the worst horizon; after the first-stage correction +0.01, rising to +0.04 at long horizons</li>
-<li>Recentering the delta method at C-tilde lifts it to 88% at T = 100: bias is most of the problem, but not all</li>
-<li>Even at T = 500, rarely available in quarterly macro data, the delta method does not reach 95%</li>
-<li>Widths over the first five horizons: 0.2 to 0.5 for the MAR against 0.3 to 0.7 for BAB-VAR</li>
-<li>Say one sentence on the unit root: all procedures deteriorate as rho_max approaches one; backup slide if asked</li>
-<li>Delta-method coverage at the worst horizon: <span class="math inline">\(74\%\)</span> at <span class="math inline">\(T = 100\)</span>, <span class="math inline">\(83\%\)</span> at <span class="math inline">\(T = 200\)</span>, <span class="math inline">\(92\%\)</span> at <span class="math inline">\(T = 500\)</span></li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="sec-application" class="slide level2">
@@ -1741,59 +1465,14 @@ display:block!important;
 <div class="absolute" style="bottom: 0px; right: 0px; ">
 <p><a href="#/sec-var2"><span class="button">Same lag order</span></a></p>
 </div>
-<aside class="notes">
-<ul>
-<li>(~40s) Cholesky factors of Sigma_1 and Sigma_2 separately, so the shock is a Kronecker vector and Proposition 1 applies</li>
-<li>Only restriction: energy does not respond within the month to food or core, the standard predetermined-energy-prices assumption at monthly frequency</li>
-<li>MAR(2) and VAR(1), the orders chosen by Schwarz and Hannan-Quinn; B1 = 1000, B2 = 200</li>
-<li>Caveat if asked: the energy innovation mixes supply and demand shocks in energy markets</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
-</section>
-<section id="what-the-comparison-shows" class="slide level2">
-<h2>What the Comparison Shows</h2>
 <ul>
 <li class="fragment"><strong>Same story, tighter bands.</strong> Point estimates track closely with ProBAB-MAR bands being about <span class="math inline">\(1.4\times\)</span> narrower (<span class="math inline">\(1.6\times\)</span> against a VAR(2))</li>
 <li class="fragment"><strong>The VAR can barely bias-correct.</strong> Shrinkage binds in <span class="math inline">\(99\%\)</span> of VAR replications against <span class="math inline">\(23\%\)</span> for the MAR; on average <span class="math inline">\(18\%\)</span> of the correction is applied, against <span class="math inline">\(92\%\)</span></li>
 <li class="fragment"><strong>Heterogeneity from <span class="math inline">\(h = 2\)</span>.</strong> At <span class="math inline">\(h = 1\)</span> the response is rank one and differences across countries emerge only later, which a MAR(1) would rule out</li>
 </ul>
 <p><a href="#/sec-kronecker"><span class="button">Kronecker structure?</span></a></p>
-<aside class="notes">
-<ul>
-<li>(~70s) Lead with the method, then the economics</li>
-<li>Width ratio 1.4 in mean, 1.3 in median; largest on impact, fading with the horizon</li>
-<li>Energy significant through h = 9 in AT and BE, h = 10 in FR, h = 13 in DE, the whole horizon in NL</li>
-<li>Core significant from h = 4 or 5 in AT, FR and NL; only at h = 10 and 11 in BE; never in DE</li>
-<li>In line with existing euro-area evidence: food pass-through peaking after about a year, core pass-through small and persistent</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
-</section></section>
-<section>
-<section id="conclusion" class="title-slide slide level1 center" data-background-color="#40666e">
-<h1>Conclusion</h1>
-
 </section>
-<section id="conclusion-1" class="slide level2">
+<section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
 <ul>
 <li>Joint asymptotic distribution of the MAR(<span class="math inline">\(p\)</span>) coefficient and covariance estimators, with delta-method intervals for identified responses</li>
@@ -1823,19 +1502,6 @@ text-align: center;
 }
 </style>
 </div>
-<aside class="notes">
-
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -1892,22 +1558,6 @@ Wang, Dong, Xialu Liu, and Rong Chen. 2019. <span>“Factor Models for Matrix-Va
 <li>For the coefficients, <span class="math inline">\(\mathbf{C}_j\)</span> is a Kronecker product iff its rearrangement <span class="math inline">\(\mathcal{R}(\mathbf{C}_j)\)</span> has rank one, so a rank test applies <span class="citation" data-cites="kleibergen_generalized_2006 guggenberger_test_2023">(<a href="#/references" role="doc-biblioref" onclick>Kleibergen and Paap 2006</a>; <a href="#/references" role="doc-biblioref" onclick>Guggenberger et al. 2023</a>)</span></li>
 </ul>
 <p><a href="#/sec-application"><span class="button">Back to main</span></a></p>
-<aside class="notes">
-<ul>
-<li>Running a small simulation study found that these methods perform badly in small finite samples</li>
-<li>A bootstrap test is a natural next step</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </section>
 <section id="sec-unitroot" class="slide level2">
 <h2>Near the Unit Root</h2>
@@ -1921,24 +1571,6 @@ display:block!important;
 <div class="absolute" style="bottom: 0px; right: 0px; ">
 <p><a href="#/sec-samplesize"><span class="button">Back to main</span></a></p>
 </div>
-<aside class="notes">
-<ul>
-<li>Every design point is stationary, so the theory formally applies, and it still falls short</li>
-<li>Delta method falls to 65%; recentered at C-tilde 86 to 90%</li>
-<li>Shrinkage binds in 35.8% of replications at rho = 0.99 against 0.01% at the baseline; in 2.7% no correction can be applied at all</li>
-<li>At rho = 0.95 the MAR bootstrap stays between 93% and 96%, with narrower bands than BAB-VAR at every horizon</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </section>
 <section id="sec-var2" class="slide level2 nostretch">
 <h2>Same Lag Order in the Application</h2>
@@ -1972,21 +1604,6 @@ display:block!important;
 <li>The guarantee is <strong>pointwise</strong> in the parameter, not uniform up to the unit circle</li>
 </ul>
 <p><a href="#/sec-validity"><span class="button">Back to main</span></a></p>
-<aside class="notes">
-<ul>
-<li>Paper numbering: A1 = Assumption 2.1, A2 = 2.2, A3 = 3.1, A4 = 3.2</li>
-</ul>
-<style type="text/css">
-span.MJX_Assistive_MathML {
-position:absolute!important;
-clip: rect(1px, 1px, 1px, 1px);
-padding: 1px 0 0 0!important;
-border: 0!important;
-height: 1px!important;
-width: 1px!important;
-overflow: hidden!important;
-display:block!important;
-}</style></aside>
 </div>
 </section>
 <section id="sec-algorithm" class="slide level2 smaller">
