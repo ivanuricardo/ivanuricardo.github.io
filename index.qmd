@@ -1,11 +1,11 @@
 ---
 title: "Ivan Ricardo"
 subtitle: "PhD Candidate in Econometrics · Maastricht University"
-image: "assets/PDF-UM-SBE-Ivan-Ricardo-QE-001-C.jpg"
+image: "assets/headshot.jpg"
 about:
   template: jolla
   image-shape: round
-  image-width: 9em
+  image-width: 12em
   links:
     - icon: envelope
       href: mailto:iu.ricardo@maastrichtuniversity.nl
@@ -38,7 +38,7 @@ Papers on cointegration and co-movements appear in *Economics Letters* and *Econ
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-7}
-**[Impulse Response Inference for Matrix Autoregressions](https://arxiv.org/abs/2610.05405)**  
+**[Impulse Response Inference for Matrix Autoregressions](https://arxiv.org/abs/XXXX.XXXXX)**  
 [with Alain Hecq and Ines Wilms]{.text-muted}
 
 Matrix autoregressions model data such as inflation across countries and categories more parsimoniously than a VAR, but valid inference for their impulse responses has been lacking.
