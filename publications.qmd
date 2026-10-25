@@ -12,7 +12,7 @@ toc: false
 ![](assets/globalplots.png){height=175}
 :::
 
-[Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){.pub-title}
+[Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){target="_blank" .pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
 [*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html){target="_blank"}]{.pub-venue}
@@ -27,7 +27,7 @@ This paper proposes a Matrix Error Correction Model to identify cointegration re
 ![](assets/coincident_indexes.png){height=220}
 :::
 
-[Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub){.pub-title}
+[Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub){target="_blank" .pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
 [*Econometrics and Statistics* (2026)· [Slides](assets/decomposing_slides.html){target="_blank"}]{.pub-venue}
@@ -45,7 +45,7 @@ A pseudo-structural framework is proposed for analyzing contemporaneous co-movem
 :::
 
 ::::: {.pub}
-[Impulse Response Inference in Matrix Autoregressions](https://arxiv.org/abs/2610.05405){.pub-title}
+[Impulse Response Inference in Matrix Autoregressions](https://arxiv.org/abs/2610.05405){target="_blank" .pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
 [arXiv:2610.05405 · [Slides](assets/ivan_meg_presentation.html){target="_blank"}]{.pub-venue}

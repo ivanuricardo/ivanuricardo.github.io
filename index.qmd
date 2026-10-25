@@ -44,8 +44,8 @@ Papers on cointegration and co-movements appear in *Economics Letters* and *Econ
 Matrix autoregressions model data such as inflation across countries and categories more parsimoniously than a VAR, but valid inference for their impulse responses has been lacking.
 We derive delta-method standard errors and propose ProBAB-MAR, a bias-corrected bootstrap with asymptotically correct coverage that delivers narrower intervals than an unrestricted VAR in simulations and an application to Euro-area inflation.
 
-[Paper](https://arxiv.org/abs/2610.05405 ){.btn .btn-primary .btn-sm}
-[Code](https://github.com/ivanuricardo/MatrixAutoRegressions.jl){.btn .btn-outline-primary .btn-sm}
+[Paper](https://arxiv.org/abs/2610.05405 ){.btn .btn-primary .btn-sm target="_blank"}
+[Code](https://github.com/ivanuricardo/MatrixAutoRegressions.jl){.btn .btn-outline-primary .btn-sm target="_blank"}
 [Slides](assets/ivan_meg_presentation.html){.btn .btn-outline-primary .btn-sm target="_blank"}
 :::
 
