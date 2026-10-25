@@ -15,7 +15,7 @@ toc: false
 [Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){.pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html)]{.pub-venue}
+[*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html){target="_blank"}]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
 This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series. We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks. Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
@@ -30,7 +30,7 @@ This paper proposes a Matrix Error Correction Model to identify cointegration re
 [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub){.pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[*Econometrics and Statistics* (2026)]{.pub-venue}
+[*Econometrics and Statistics* (2026)· [Slides](assets/decomposing_slides.html){target="_blank"}]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
 A pseudo-structural framework is proposed for analyzing contemporaneous co-movements in stationary reduced-rank matrix autoregressive (RRMAR) models. Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, the formulation preserves it, enabling a decomposition of co-movements into three interpretable components: row-specific, column-specific, and joint (row–column) interactions across the matrix-valued time series. The estimator admits standard asymptotic inference and a BIC-type criterion is proposed for the joint selection of the reduced ranks and the autoregressive lag order. The method’s finite-sample performance in terms of estimation accuracy, coverage and rank selection is validated through simulation experiments, including cases of rank misspecification. Practical usefulness is illustrated through the application of the pseudo-structural approach to distill coincident indicators from raw labor market data across nine Midwestern U.S. states, uncovering distinct row-, column-, and joint co-movement patterns that reflect both within-state labor market dynamics and cross-state linkages.
@@ -48,7 +48,7 @@ A pseudo-structural framework is proposed for analyzing contemporaneous co-movem
 [Impulse Response Inference in Matrix Autoregressions](https://arxiv.org/abs/2610.05405){.pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[arXiv:2610.05405 · [Slides](assets/ivan_meg_presentation.html)]{.pub-venue}
+[arXiv:2610.05405 · [Slides](assets/ivan_meg_presentation.html){target="_blank"}]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
 Matrix autoregressive (MAR) models offer a parsimonious framework for modeling matrix-valued time series, yet tools for estimation and inference for their impulse response functions are lacking. We develop asymptotic and bootstrap-based inference for impulse responses of stable MAR($p$) models. We derive the joint asymptotic distribution of the coefficient and covariance estimators, which permits closed-form delta-method standard errors. To address finite-sample bias, we propose ProBAB-MAR, a bias-corrected bootstrap that projects the corrected coefficients back onto the Kronecker parameter space, and prove that it attains asymptotically correct coverage. Monte Carlo simulations show that delta-method intervals undercover in small samples, while ProBAB-MAR achieves near-nominal coverage with intervals considerably narrower than those from an unrestricted VAR. An application to euro area inflation illustrates how shocks transmit across countries and inflation categories.

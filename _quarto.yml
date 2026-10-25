@@ -18,10 +18,12 @@ website:
         href: publications.qmd
       - text: About
         href: about.qmd
-      - text: Posts
-        href: posts.qmd
       - text: Software
         href: software.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Posts
+        href: posts.qmd
     tools:
       - icon: github
         href: https://github.com/ivanuricardo
