@@ -9,16 +9,16 @@ toc: false
 
 ::::: {.pub}
 :::{.column-margin}
-![](assets/globalplots.png){height=175}
+![](assets/solar_flare.png){height=200}
 :::
 
-[Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){target="_blank" .pub-title}
+[Performance of radio-based detection for operational monitoring of M5+ class solar flares](https://www.swsc-journal.org/component/article?access=doi&doi=10.1051/swsc/2026033){target="_blank" .pub-title}
 
-[Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html){target="_blank"}]{.pub-venue}
+[Julia van Ravenswaaij, Ines Wilms, Ivan Ricardo, Michaela Brchnelova]{.pub-authors}\
+[*Journal of Space Weather and Space Climate* (2026)]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series. We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks. Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
+Early detection of major solar flares is critical due to their potential to disturb radar and radio systems. Typically, soft X-ray flux is used to monitor and classify solar flares, but since this flux has to be measured in space, it means that its availability itself is dependent on space weather conditions. For this reason, in this paper, we investigated the feasibility of using ground radio observations to monitor major (M5+ class) solar flares. We made use of datasets from the GOES-16 satellite and the Radio Solar Telescope Network in the time range between March 2023 and March 2025. An elastic net regularized logistic regression model was trained on this data, optimized through a grid search and with incorporated class weighting for class imbalance.  It was found that especially higher frequencies (8800 MHz) had a reasonable ability for monitoring and  predicting major flares (precision and recall for flare events are 53\% and 65\%, respectively--  implying that roughly one third of flares were not detected --with signals appearing, on average, 3 to 4 minutes before the M5 threshold is exceeded). Radio measurements at super high frequencies can thus serve as an alternative method to monitor major solar flaring activity.
 :::
 :::::
 
@@ -37,19 +37,18 @@ A pseudo-structural framework is proposed for analyzing contemporaneous co-movem
 :::
 :::::
 
-
 ::::: {.pub}
 :::{.column-margin}
-![](assets/solar_flare.png){height=200}
+![](assets/globalplots.png){height=175}
 :::
 
-[Performance of radio-based detection for operational monitoring of M5+ class solar flares](https://www.swsc-journal.org/component/article?access=doi&doi=10.1051/swsc/2026033){target="_blank" .pub-title}
+[Detecting Cointegrating Relations in Matrix-Valued Time Series](https://www.sciencedirect.com/science/article/pii/S0165176525000424){target="_blank" .pub-title}
 
-[Julia van Ravenswaaij, Ines Wilms, Ivan Ricardo, Michaela Brchnelova]{.pub-authors}\
-[*Journal of Space Weather and Space Climate* (2026)]{.pub-venue}
+[Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
+[*Economics Letters* (2025) · [Slides](assets/matrixcointegration.html){target="_blank"}]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
-Early detection of major solar flares is critical due to their potential to disturb radar and radio systems. Typically, soft X-ray flux is used to monitor and classify solar flares, but since this flux has to be measured in space, it means that its availability itself is dependent on space weather conditions. For this reason, in this paper, we investigated the feasibility of using ground radio observations to monitor major (M5+ class) solar flares. We made use of datasets from the GOES-16 satellite and the Radio Solar Telescope Network in the time range between March 2023 and March 2025. An elastic net regularized logistic regression model was trained on this data, optimized through a grid search and with incorporated class weighting for class imbalance.  It was found that especially higher frequencies (8800 MHz) had a reasonable ability for monitoring and  predicting major flares (precision and recall for flare events are 53\% and 65\%, respectively--  implying that roughly one third of flares were not detected --with signals appearing, on average, 3 to 4 minutes before the M5 threshold is exceeded). Radio measurements at super high frequencies can thus serve as an alternative method to monitor major solar flaring activity.
+This paper proposes a Matrix Error Correction Model to identify cointegration relations in matrix-valued time series. We hereby allow separate cointegrating relations along the rows and columns of the matrix-valued time series and use information criteria to select the cointegration ranks. Through Monte Carlo simulations and a macroeconomic application, we demonstrate that our approach provides a reliable estimation of the number of cointegrating relationships.
 :::
 :::::
 
