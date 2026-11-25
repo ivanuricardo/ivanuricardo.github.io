@@ -30,7 +30,7 @@ Early detection of major solar flares is critical due to their potential to dist
 [Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced Rank Approach](https://www.sciencedirect.com/science/article/pii/S2452306226000328?via%3Dihub){target="_blank" .pub-title}
 
 [Alain Hecq, Ivan Ricardo, Ines Wilms]{.pub-authors}\
-[*Econometrics and Statistics* (2026)· [Slides](assets/decomposing_slides.html){target="_blank"}]{.pub-venue}
+[*Econometrics and Statistics* (2026) · [Slides](assets/decomposing_slides.html){target="_blank"}]{.pub-venue}
 
 ::: {.callout-tip title="Abstract" collapse=true}
 A pseudo-structural framework is proposed for analyzing contemporaneous co-movements in stationary reduced-rank matrix autoregressive (RRMAR) models. Unlike conventional vector-autoregressive (VAR) models that would discard the matrix structure, the formulation preserves it, enabling a decomposition of co-movements into three interpretable components: row-specific, column-specific, and joint (row–column) interactions across the matrix-valued time series. The estimator admits standard asymptotic inference and a BIC-type criterion is proposed for the joint selection of the reduced ranks and the autoregressive lag order. The method’s finite-sample performance in terms of estimation accuracy, coverage and rank selection is validated through simulation experiments, including cases of rank misspecification. Practical usefulness is illustrated through the application of the pseudo-structural approach to distill coincident indicators from raw labor market data across nine Midwestern U.S. states, uncovering distinct row-, column-, and joint co-movement patterns that reflect both within-state labor market dynamics and cross-state linkages.
